@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+}
+.banner-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.text-container {
+    text-align: start; 
+    padding: 0 0 0 393px;
+    white-space: nowrap;
+}
+.text-container h1 {
+    width: 649px;
+    height: 144px;
+    position: absolute;
+    top: 247px;
+    left: 90px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    line-height: 48.41px;
+    margin: 0;
+}
+
+/* .text-container h1 {
+    font-size: 40px; 
+    font-weight: 800;
+    margin: 0;
+    font-family: "Inter",sans-serif ;
+    line-height: 48.41px;
+    margin-bottom: 15px;
+    top: 247px;
+    left: 90px;
+} */
+.text-container p {
+    width: 453px;
+    height: 34px;
+    position: absolute;
+    top: 406px;
+    left: 90px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* .text-container p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 55px;
+    top: 406px;
+    left: 90px;
+
+} */
+.button-container {
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+.button {
+    width: 213px;
+    height: 53px;
+    position: absolute;
+    top: 481px;
+    left: 327px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 53px;
+    cursor: pointer;
+    border: none;
+}
+
+/* .button {
+    margin-right: 95px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color:black;
+    font-weight: bold;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+    width: 213px;
+    height: 53px;
+    top: 327px;
+    left: 25px;
+} */
+.button1 {
+    width: 168px;
+    height: 53px;
+    position: absolute;
+    top: 481px;
+    left: 92px;
+    border-radius: 25px;
+    background-color: #C8F031;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 53px;
+    cursor: pointer;
+    border: none;
+}
+
+/* .button1{
+    margin-right: 35px;
+    padding: 10px 20px;
+    background-color:  #C8F031;
+    color:black;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
+    width: 168px;
+    height: 53px;
+    top: 495px;
+    left: 119px;
+} */
+
+.banner-image {
+        width: 527px;
+        height: 547px;
+        position: absolute;
+        top: 69px;
+        left: 733px;
+    
+    
+    /* max-width: 100%;
+    float: right;
+    margin-right: 20px; 
+    width: 527px;
+    height: 547px;
+    top: 69px;
+    left: 733px; */
+}
+.image-container{
+  top: 69px;
+  left: 733px;
+}
+.gradient-ellipse {
+    width: 467px;
+    height: 467px;
+    position: absolute;
+    top: 101px;
+    left: 209px;
+    background: rgba(196, 247, 209, 1);
+    /* box-shadow: 1px 1px 18px 20px #FFFFFF; */
+    filter: blur(137px);
+    border-radius: 30%;
+    z-index: -1;
+}
+
+
+/* .gradient-ellipse {
+    width: 467px; 
+    height: 467px; 
+    background: rgba(196, 247, 209, 0.5); 
+    border: none !important;
+    outline: none !important; 
+    /* border-radius: 50%;  */
+    /* position: absolute;
+    top: 101px;
+    left: 209px;
+    transform: translate(68%, -22%);
+    z-index: -1; 
+} */ 
+/* .gradient-ellipse1{
+    width: 467px; 
+    height: 467px; 
+    background: rgba(240, 242, 163, 1);
+    border-style: none !important;
+    outline: none !important; 
+    /* border-radius: 50%;  */
+    /* position: absolute;
+    top: 311px;
+    left: 575px;
+    transform: translate(66%, -29%);
+    z-index: -1; 
+} */ 
+
+
+
+
+
+/* .h1{
+    font-size: 38px;
+    font-weight: 700;
+} */
+.gradient-ellipse1{
+    width: 467px;
+    height: 467px;
+    position: absolute;
+    top: 311px;
+    left: 575px;
+    background: rgba(240, 242, 163, 1);
+    /* box-shadow: 1px 1px 18px 20px #FFFFFF; */
+    filter: blur(137px);
+    border-radius: 30%;
+    z-index: -1;
+}

@@ -1,7 +1,13 @@
-import "./App.css";
+
+import React from 'react';
+import Banner from './Components/Banner'; 
 
 function App() {
-  return <div className="bg-red-300">Hello there</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+);
 }
 
 export default App;
