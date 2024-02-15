@@ -1,13 +1,16 @@
-
-import React from 'react';
-import Banner from './Components/Banner'; 
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      <Banner />
-    </div>
-);
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
+
 }
 
 export default App;
