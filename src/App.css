@@ -35,3 +35,27 @@
     letter-spacing: 0em;
     text-align: left;
 }
+.image-container {
+    width: 527px;
+    height: 547px;
+    position: absolute;
+    top: 69px;
+    left: 733px;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: 100%;
+  }
+  .gradient-ellipse {
+    width: 282px; 
+    height: 304px; 
+    background: rgba(196, 247, 209, 1); 
+    border-radius: 50%;
+    position: absolute;
+    top: -21px;
+    left: -42px;
+    z-index: -1;
+    filter: blur(97px);
+  }
+    

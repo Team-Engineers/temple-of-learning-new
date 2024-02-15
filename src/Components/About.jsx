@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../About1.png'; 
+import AboutImage from '../About1.png'; 
 import '../App.css';
 
 const About = () => {
@@ -18,6 +18,7 @@ const About = () => {
             <div className="image-container">
                 <img src={AboutImage} alt="About" className="about-image" />    
             </div>
+            <div className="gradient-ellipse"></div>
         </div>
     );
 }
