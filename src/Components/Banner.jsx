@@ -1,6 +1,6 @@
 import React from 'react';
 import girlImage from '../image/girl.png'; 
-import '../App.css';
+import './banner.css';
 
 const Banner = () => {
     return (
