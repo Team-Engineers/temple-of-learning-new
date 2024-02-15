@@ -1,7 +1,12 @@
 import "./App.css";
-
+import React from 'react';
+import About from './Components/About';
 function App() {
-  return <div className="bg-red-300">Hello there</div>;
+  return(
+    <div>
+      <About/>
+    </div>
+  )
 }
 
 export default App;
