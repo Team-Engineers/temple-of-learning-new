@@ -1,15 +1,15 @@
 import React from 'react';
-import girlImage from '../image/girl.png'; 
+import girlImage from '../../assets/images/girl.png';
 import './banner.css';
 
 const Banner = () => {
     return (
         <div className="banner-container">
-             <div className="text-container">
+            <div className="text-container">
                 <h1 className='h1'>
                     <b>Empowering Excellence through<br /> Professional Growth and<br /> Lifelong Learning.</b>
                 </h1>
-                <p className='p'>Transform Your Career with Live Tech Bootcamps and<br/> Online Classes - Ignite Your Journey or Supercharge Your Success!</p>
+                <p className='p'>Transform Your Career with Live Tech Bootcamps and<br /> Online Classes - Ignite Your Journey or Supercharge Your Success!</p>
                 <div className="button-container">
                     <button className="button1">Get Started</button>
                     <button className="button">Explore Courses</button>

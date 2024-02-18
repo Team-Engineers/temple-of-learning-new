@@ -1,10 +1,11 @@
 import React from 'react';
-import AboutImage from '../About1.png'; 
-import '../App.css';
+import AboutImage from '../assets/images/About1.png';
+import Navbar from '../components/Navbar/Navbar';
 
 const About = () => {
     return (
-        <div className='container'>
+        <div className='container mx-auto'>
+            <Navbar />
             <div className="heading">
                 <h1 className='h1'>About Us</h1>
             </div>
@@ -16,7 +17,7 @@ const About = () => {
                 <p className='p3'>Throughout the years of rapid evolution, the institute altogether has been embracing brilliance, knowledge and education that help students foster and discover their aptitude. Temple of learning directs students to cling on to these stimulating aptitudes, so that they can compete, excel and ace in a number of entrance examinations, framing a bright picture of their future.</p>
             </div>
             <div className="image-container">
-                <img src={AboutImage} alt="About" className="about-image" />    
+                <img src={AboutImage} alt="About" className="about-image" />
             </div>
             <div className="gradient-ellipse"></div>
         </div>
