@@ -2,12 +2,12 @@
 *{
     margin: 0;
     padding: 0;
-   
+    /* height: 100%; */
 }
 h1 {
     width: 156px;
     height: 27px;
-    top: 137px;
+    top: 71px;
     left: 508.36px;
     position: relative;
     font-family: Inter;
@@ -27,8 +27,8 @@ font-weight: 700;
 .contact-container {
     width: 684px;
     height: 584.54px;
-    top: 137px;
-    left: 200px;
+    top: -9px;
+    left: 113px;
     position: relative;
     font-family: Inter;
     color:black;
@@ -41,7 +41,7 @@ font-weight: 700;
     left: 508.36px;
     border-radius: 128.64px;
     border: 1.12px solid black; 
-    color: black;
+    /* color: black; */
     position: absolute;
 }
 .placeholder-style {
@@ -53,7 +53,7 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
 }
 .placeholder-style1{
     width: 93px;
@@ -64,7 +64,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -77,7 +78,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -90,7 +92,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    color: black;
+    color: black !important;
+    padding: 0 0 0 12px;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -104,7 +107,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -117,7 +121,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -130,7 +135,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 0 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -143,7 +149,8 @@ font-weight: 700;
     line-height: 22px;
     letter-spacing: 0;
     text-align: left;
-    /* color: black; */
+    padding: 15px 0 0 12px;
+    color: black;
     /* top: 227.9px;
     left: 887.96px; */
 }
@@ -156,7 +163,7 @@ font-weight: 700;
     border-radius:128.64px ;
     border: 1.12px solid black;
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #phoneNumber {
     width: 331.1px;
@@ -166,7 +173,7 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black;
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #email {
     width: 331.1px;
@@ -176,7 +183,7 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black; 
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #school {
     width: 331.1px;
@@ -186,7 +193,7 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black; 
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #state {
     width: 331.1px;
@@ -196,7 +203,7 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black; 
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #classCourse {
     width: 684px;
@@ -206,7 +213,7 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black; 
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 #inquiry {
     width: 684px;
@@ -216,25 +223,26 @@ font-weight: 700;
     border-radius: 128.64px;
     border: 1.12px solid black; 
     position: absolute;
-    color: black;
+    /* color: black; */
 }
 
 .contact-card {
     width: 404.82px;
     height: 651.93px;
-    top: 102px;
-    left: 61px;
+    top: 2px;
+    left: 71px;
     border-radius: 0px 16.26px 0px 16.26px;
     background: rgba(59, 98, 236, 1);
     padding: 20px;
     position: relative;
     color: white;
     font-family: Inter;
+    font-weight: bold;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-card h2 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
@@ -248,26 +256,30 @@ font-weight: 700;
 .phone-icon {
     width: 40.64px;
     height: 40.64px;
-    /* position: absolute; */
-    top: 248.32px;
-    left: 91.89px;
+    margin: 0 25px 0 0;
 }
-.p1,.p3,.p4 {
+    
+.p {
     display: flex;
     align-items: center;
     padding: 8px 0px 8px 0px;
+    font-size: 16px;
+}
+.p-container{
+    font-size: 19px;
 }
 
-.p1 img,.p3 img,.p4 img {
+.p {
     margin-right: 10px; /* Adjust margin as needed */
 }
 
-.envelope-icon{
+.envelope-icon,.location-icon{
 width: 40.64px;
 height: 40.64px;
+margin: 0 25px 0 0;
 /* position: absolute; */
-top: 313.35px;
-left: 93.52px;
+/* top: 313.35px;
+left: 93.52px; */
 }
 /* .p3{
     display: flex;
@@ -290,12 +302,15 @@ left: 93.52px;
     left: 893px;
     border-radius: 30px;
     position: absolute;
-    background-color: rgba(200, 240, 49, 1); /* Background color */
-    color: white;
+    background-color: rgba(200, 240, 49, 1)!important;
+    color: black;
     text-align: center;
     line-height: 80.54px; /* Vertically center text */
     font-size: 16px;
     cursor: pointer;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); /* Box shadow */
 }
 .eclipse{
@@ -303,7 +318,7 @@ left: 93.52px;
     padding: 0;
     position: relative;
     left: -41px;
-    top: 2px;
+    top: -12px;
 }
 .social-icons {
     display: flex;
@@ -315,4 +330,14 @@ left: 93.52px;
     height: 27px;
     margin-right: 10px; /* Adjust spacing between icons */
 }
-
+.circle {
+    width: 274px; 
+    height: 287px; 
+    background: rgba(196, 247, 209, 1); 
+    border-radius: 50%;
+    position: absolute;
+    top: -37px;
+    left: 987px;
+    z-index: -1;
+    filter: blur(97px);
+  }

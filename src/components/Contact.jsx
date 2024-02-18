@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from './Navbar/Navbar';
 import './Style.css';
 import PhoneIcon from './Phone.png';
 import EnvelopeIcon from './Envelope.png'
@@ -26,6 +27,7 @@ function Contact() {
 
     return (
         <div className="contact-container">
+            <Navbar/>
             <h1 className='heading-container'>Request a Call</h1>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -52,17 +54,17 @@ function Contact() {
             </form>
             <div class="contact-card">
                  <h2>Contact Us</h2>
-                <p>Our team will get in touch with you promptly upon form submission.</p>
+                <p className='p-container'>Our team will get in touch with you promptly upon form submission.</p>
             <div class="contact-details">
-                <p className='p1'>
+                <p className='p'>
                 <img src={PhoneIcon} alt="Phone" className="phone-icon" />
                     +91-98100 33495 <br/>
                     011-45 019 365</p>
-                <p className='p3'> <img src={EnvelopeIcon} alt="envelope" className="envelope-icon" />info@templeoflearning.com</p>
-                <p className='p4'> <img src={LocationIcon} alt="location" className="location-icon" />Head Office <br/>
+                <p className='p'> <img src={EnvelopeIcon} alt="envelope" className="envelope-icon" />info@templeoflearning.com</p>
+                <p className='p'> <img src={LocationIcon} alt="location" className="location-icon" />Head Office <br/>
                 L-3, Kanchanjunga Building <br/> Barakhamba Road,<br/>Connaught Place <br/> New Delhi - 110001</p>
                 <div class="social-icons">
-                     <img src={FacebookIcon} alt="Facebook" class="icon" />
+                    <img src={FacebookIcon} alt="Facebook" class="icon" />
                     <img src={InstagramIcon} alt="Instagram" class="icon" />
                     <img src={GoogleIcon} alt="Google" class="icon" />
                     <img src={LinkdinIcon} alt="LinkedIn" class="icon" />
@@ -73,6 +75,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+        <div className='circle'> </div>
 
         </div>
     );
