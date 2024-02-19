@@ -39,8 +39,8 @@ const Cucet = () => {
           </div>
         ))}
         <div className="mt-6 ml-8 mr-8 justify-center">
-          <ul className="list-disc">
-            <li className="mb-3" >As discussed above, CUCET is a national-level entrance test offering admissions to UG, PG and integrated programs in 54 central universities across India.</li>
+          <ul className="list-disc pl-5">
+            <li className="mb-3 " >As discussed above, CUCET is a national-level entrance test offering admissions to UG, PG and integrated programs in 54 central universities across India.</li>
             <li className="mb-3" >Previously, the students were evaluated based on12th marks, but now you are required to appear for a common aptitude test and clear the exam with qualifying marks.</li>
             <li className="mb-3" >7 member committee will recommend the modalities for this aptitude test.</li>
             <li className="mb-3" >The exam is a computer-based test that will commence shortly for the 2022-2023 batch and is conducted twice a year by NTA.</li>
@@ -50,7 +50,7 @@ const Cucet = () => {
         </div>
         <div className="mt-6 ml-8 mr-8 justify-center">
           <b className="text-[#0D88CB]">Why Central Universities Common Entrance Test 2022 [CUCET]?</b>
-          <ul className="list-disc">
+          <ul className="list-disc pl-5">
             <li className="mt-4">It was observed that there is huge competition in top universities with high cut-off marks, so the exam was introduced to reduce the high cut-off standards for entering these prestigious colleges.</li>
             <li className="mt-3">The exam is a centralized test for top universities like Delhi University, Banaras Hindu University, Central University of Punjab, and Jawaharlal Nehru University.</li>
             <li className="mt-3">Instead of appearing for multiple entrance tests, you can focus on a single aptitude test to get admission to these top universities.</li>
@@ -58,7 +58,7 @@ const Cucet = () => {
         </div>
         <div className="mt-6 ml-8 mr-8 justify-center">
           <b className="text-[#0D88CB]">CUCET Exam Date 2022</b>
-          <ul className="list-disc">
+          <ul className="list-disc pl-5">
             <li className="mt-4">The notification or final recommendation on the exam will be released soon.</li>
             <li className="mt-3">The expected CUCET Exam Date for the release of the application form is in the last week of March 2022 or the first week of April 2022.</li>
             <li className="mt-3">Enlisted below are important events related to this entrance:</li>
@@ -137,7 +137,7 @@ const Cucet = () => {
         </div>
         <div className="mt-6 ml-8 mr-8 justify-center">
           <b className="text-[#0D88CB]">Eligibility Criteria</b>
-          <ul className="list-disc">
+          <ul className="list-disc pl-5">
             <li className="mt-4">You should have passed the 12th standard with a minimum of 60%</li>
             <li className="mt-3">You can apply if you are studying in class 12, however, you will need to submit the documents during verification.</li>
             <li className="mt-3">The previous eligibility shall vary as per each course and university you apply to.</li>
@@ -151,7 +151,7 @@ const Cucet = () => {
           <b className="text-[#0D88CB] mb-4">CUCET 2022 Application form</b>
           <p className="mt-4 mb-3">The application window shall open in online mode in the month of April 2022. There is a common registration process for UG, PG, and PhD students.</p>
           <p>Here are the steps to fill the CUCET Application Form:</p>
-          <ul className="list-disc">
+          <ul className="list-disc pl-5">
             <li className="mt-4">Register yourself as a new user on the official website by filling in your personal details</li>
             <li className="mt-3">Login again to fill in the educational qualification, basic details, and communication information in the form</li>
             <li className="mt-3">Upload the required documents like photograph, the signature.</li>
