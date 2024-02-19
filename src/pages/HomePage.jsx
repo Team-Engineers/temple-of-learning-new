@@ -6,12 +6,13 @@ import Arsenal from '../components/home/Arsenal'
 import CallBack from '../components/home/CallBack'
 import Testimonials from '../components/home/Testimonials'
 import WhyJoin from '../components/home/WhyJoin'
+import Banner from '../components/home/Banner'
 
 const HomePage = () => {
   return (
     <div className=' overflow-hidden'>
       <Navbar />
-      {/* <Banner /> */}
+      <Banner/>
       <AboutUs />
       <Arsenal />
       <WhyJoin />
