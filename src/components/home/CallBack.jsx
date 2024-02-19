@@ -1,8 +1,8 @@
 import React from 'react'
-import gradient3 from "../../assets/images/book.png";
-import contactfront from '../../assets/images/home/contactfront.png';
-import contactback from '../../assets/images/home/contactback.png';
-import contact2 from '../../assets/images/home/contact2.png';
+import gradient3 from "../../Assets/images/book.png";
+import contactfront from '../../Assets/images/home/contactfront.png';
+import contactback from '../../Assets/images/home/contactback.png';
+import contact2 from '../../Assets/images/home/contact2.png';
 
 const CallBack = () => {
     return (

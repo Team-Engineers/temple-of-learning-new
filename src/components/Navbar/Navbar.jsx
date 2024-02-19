@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../Assets/images/logo.png";
 import BurgerAndMenu from "../burgerAndMenu/BurgerAndMenu";
 
 const Navbar = () => {

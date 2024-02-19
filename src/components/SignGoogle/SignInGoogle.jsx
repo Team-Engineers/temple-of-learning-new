@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/Social-logo/google-logo.png'
+import logo from '../../Assets/images/Social-logo/google-logo.png'
 import './SignInGoogle.css'
 export default function SignInGoogle() {
   return (

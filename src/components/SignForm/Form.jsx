@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto py-8">
       <form className="max-w-lg mx-auto bg-white  rounded  pt-6 pb-8 mb-4">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="full-name">
