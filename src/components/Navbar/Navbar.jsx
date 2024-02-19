@@ -76,6 +76,7 @@ const Navbar = () => {
             </div>
           </form>
         </div>
+
       </div>
       <div className="md:flex hidden">
         <nav className="flex justify-center items-center text-[1.3vw] space-x-10 px-10">
@@ -109,7 +110,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/signup"
-            className={` font-bold rounded-3xl px-5 py-2  flex justify-center items-center bg-[#C8F031] whitespace-nowrap hover:underline ${location.pathname === "/" && !isScrolled ? "text-black" : ""
+            className={` font-bold rounded-3xl px-5 py-2 shadow-2xl flex justify-center items-center bg-[#C8F031] whitespace-nowrap hover:underline ${location.pathname === "/" && !isScrolled ? "text-black" : ""
               }`}
           >
             Login/Signup
