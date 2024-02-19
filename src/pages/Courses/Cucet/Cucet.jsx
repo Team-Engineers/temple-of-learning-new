@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Navbar from '../../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom';
+import Navbar from '../../../components/Navbar/Navbar';
 import Footer from '../../../components/footer/Footer';
 
 const Cucet = () => {
@@ -313,10 +313,10 @@ const Cucet = () => {
         </div>
       </div>
       <div className='flex justify-center'>
-        <Link to="/login" className="relative bg-[#0D88CB] px-[100px] rounded-3xl p-4 flex text-center justify-center text-white text-[30px] items-center my-5 ">Register</Link>
+        <Link to="/login" className="relative bg-[#0D88CB] px-[80px] rounded-3xl p-2 flex text-center justify-center text-white text-[30px] items-center my-6 ">Register</Link>
 
       </div>
-      <Footer/>
+      <Footer />
     </div>
 
   )
