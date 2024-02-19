@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.gradient-ellipse {
+  width: 282px;
+  height: 304px;
+  background: #C4F7D1;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(75px);
+}
+
+.gradient-ellipse-2 {
+  width: 282px;
+  height: 304px;
+  background: #F0F2A3;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0;
+  right: 35%;
+  z-index: -1;
+  filter: blur(75px);
+}
