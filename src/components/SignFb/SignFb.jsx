@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../Assets/images/Social-logo/fb-logo.png'
+import logo from '../../assets/images/Social-logo/fb-logo.png'
 import './SignFb.css'
 export default function SignFb() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../Assets/images/logo.png";
+import Logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   const updatedDate = new Date().getFullYear();
@@ -27,126 +27,126 @@ const Footer = () => {
             </p>
           </div>
           <div className="lg:text-start max-md:mt-4 text-center ">
-              <p className="font-bold text-[25px] uppercase text-white  ">
-                POPULAR COURSES
-              </p>
-              <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
-              <ul className="md:mt-8 space-y-2 text-[80%] md:text-[100%]">
-                <li>
-                  <p
-                    className="text-white transition "
-        
-                  >
-                    CUET
-                  </p>
-                </li>
+            <p className="font-bold text-[25px] uppercase text-white  ">
+              POPULAR COURSES
+            </p>
+            <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
+            <ul className="md:mt-8 space-y-2 text-[80%] md:text-[100%]">
+              <li>
+                <p
+                  className="text-white transition "
 
-                <li>
-                  <p
-                    className="text-white transition "
-                    
-                  >
-                    MANAGEMENT
-                  </p>
-                </li>
+                >
+                  CUET
+                </p>
+              </li>
 
-                <li>
-                  <p
-                    className="text-white transition "
-                    
-                  >
-                    MASS COMMUNICATION
-                  </p>
-                </li>
+              <li>
+                <p
+                  className="text-white transition "
 
-                <li>
-                  <p
-                    className="text-white transition "
-                 
-                  >
-                    LAW
-                  </p>
-                </li>
-                <li>
-                  <p
-                    className="text-white transition "
-                 
-                  >
-                    HOTEL MANAGEMENT
-                  </p>
-                </li>
-                <li>
-                  <p
-                    className="text-white transition "
-                 
-                  >BCOM
-                  </p>
-                </li>
-                <li>
-                  <p
-                    className="text-white transition "
-               
-                  >PSYCHOLOGY
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div className="lg:text-start max-md:mt-4 text-center">
-              <p className="font-bold text-[25px] uppercase text-white  ">
-                OUR PROGRAMS
-              </p>
-              <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
-              <ul className="md:mt-8 space-y-2 text-[80%] md:text-[100%]">
-                <li>
-                  <p className="text-white transition  whitespace-nowrap">
-                    2 Year Program
-                  </p>
-                </li>
+                >
+                  MANAGEMENT
+                </p>
+              </li>
 
-                <li>
-                  <p className="text-white transition  whitespace-nowrap">
-                    2 Year Program
-                  </p>
-                </li>
+              <li>
+                <p
+                  className="text-white transition "
 
-                <li>
-                  <p className="text-white  transition  whitespace-nowrap">
-                    Crash Course
-                  </p>
-                </li>
+                >
+                  MASS COMMUNICATION
+                </p>
+              </li>
 
-                <li>
-                  <p className="text-white transition   whitespace-nowrap">
-                    9th Class
-                  </p>
-                </li>
-                <li>
-                  <p className="text-white transition   whitespace-nowrap">
-                    10th Class
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div className="lg:text-start mr-7 max-md:mt-4 text-center ">
-              <p className="font-bold m text-[25px] uppercase text-white  ">
-                Social Media
-              </p>
-              <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
-              <ul className=" flex gap-4  justify-center text-[30px] md:justify-start items-center">
-                <NavLink href="https://www.facebook.com/tol.leadtheway/">
-                  <i className="fa-brands text-white fa-facebook-f"></i>
-                </NavLink>
-                <NavLink href="https://twitter.com/tolEdu">
-                  <i className="fa-brands text-white fa-twitter"></i>
-                </NavLink>
-                <NavLink href="https://www.linkedin.com/in/tol-education-403299131/">
-                  <i className="fa-brands text-white fa-linkedin-in"></i>
-                </NavLink>
-                <NavLink href="#">
-                  <i className="fa-brands text-white fa-google-plus-g"></i>
-                </NavLink>
-              </ul>
-            </div>
+              <li>
+                <p
+                  className="text-white transition "
+
+                >
+                  LAW
+                </p>
+              </li>
+              <li>
+                <p
+                  className="text-white transition "
+
+                >
+                  HOTEL MANAGEMENT
+                </p>
+              </li>
+              <li>
+                <p
+                  className="text-white transition "
+
+                >BCOM
+                </p>
+              </li>
+              <li>
+                <p
+                  className="text-white transition "
+
+                >PSYCHOLOGY
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="lg:text-start max-md:mt-4 text-center">
+            <p className="font-bold text-[25px] uppercase text-white  ">
+              OUR PROGRAMS
+            </p>
+            <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
+            <ul className="md:mt-8 space-y-2 text-[80%] md:text-[100%]">
+              <li>
+                <p className="text-white transition  whitespace-nowrap">
+                  2 Year Program
+                </p>
+              </li>
+
+              <li>
+                <p className="text-white transition  whitespace-nowrap">
+                  2 Year Program
+                </p>
+              </li>
+
+              <li>
+                <p className="text-white  transition  whitespace-nowrap">
+                  Crash Course
+                </p>
+              </li>
+
+              <li>
+                <p className="text-white transition   whitespace-nowrap">
+                  9th Class
+                </p>
+              </li>
+              <li>
+                <p className="text-white transition   whitespace-nowrap">
+                  10th Class
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="lg:text-start mr-7 max-md:mt-4 text-center ">
+            <p className="font-bold m text-[25px] uppercase text-white  ">
+              Social Media
+            </p>
+            <div className='md:my-5 mb-2 flex justify-center h-[4px] max-md:mx-auto w-[60%] bg-white' />
+            <ul className=" flex gap-4  justify-center text-[30px] md:justify-start items-center">
+              <NavLink href="https://www.facebook.com/tol.leadtheway/">
+                <i className="fa-brands text-white fa-facebook-f"></i>
+              </NavLink>
+              <NavLink href="https://twitter.com/tolEdu">
+                <i className="fa-brands text-white fa-twitter"></i>
+              </NavLink>
+              <NavLink href="https://www.linkedin.com/in/tol-education-403299131/">
+                <i className="fa-brands text-white fa-linkedin-in"></i>
+              </NavLink>
+              <NavLink href="#">
+                <i className="fa-brands text-white fa-google-plus-g"></i>
+              </NavLink>
+            </ul>
+          </div>
         </div>
         <div className="md:mt-12 mt-2 border-t border-gray-100 pt-6 ml-[20px] mr-[20px]">
           <div className="text-center flex-col flex  md:flex-row md:justify-between sm:text-left">

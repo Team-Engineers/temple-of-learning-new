@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { default as book, default as image2 } from "../../Assets/images/book.png"
-import image1 from "../../Assets/images/home/about1.png"
-import about2 from "../../Assets/images/home/about2.png"
-import gradient from "../../Assets/images/home/gradient.png"
-import { default as gradient1, default as gradient2 } from "../../Assets/images/home/gradient1.png"
+import { default as book, default as image2 } from "../../assets/images/book.png"
+import image1 from "../../assets/images/home/about1.png"
+import about2 from "../../assets/images/home/about2.png"
+import gradient from "../../assets/images/home/gradient.png"
+import { default as gradient1, default as gradient2 } from "../../assets/images/home/gradient1.png"
 const AboutUs = () => {
     return (
         <div className='relative'>

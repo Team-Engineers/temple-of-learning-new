@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar'
-import Footer from '../Components/footer/Footer'
-import AboutUs from '../Components/home/AboutUs'
-import Arsenal from '../Components/home/Arsenal'
-import CallBack from '../Components/home/CallBack'
-import Testimonials from '../Components/home/Testimonials'
-import WhyJoin from '../Components/home/WhyJoin'
+import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/footer/Footer'
+import AboutUs from '../components/home/AboutUs'
+import Arsenal from '../components/home/Arsenal'
+import CallBack from '../components/home/CallBack'
+import Testimonials from '../components/home/Testimonials'
+import WhyJoin from '../components/home/WhyJoin'
 
 const HomePage = () => {
   return (

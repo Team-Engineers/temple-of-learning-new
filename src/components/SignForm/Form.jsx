@@ -19,11 +19,11 @@ const Form = () => {
           </label>
           <input className="  border-b border-gray-500 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Password" />
         </div>
-        <div className="mb-6"> 
+        <div className="mb-6">
           <button className="bg-[#77D3FF] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline shadow-md rounded-lg" id="btn"> Create Account </button>
         </div>
-        <div className="mb-4"> 
-          <p> Already have an account? <a href="/" className="text-[#77D3FF]" >Login</a></p>
+        <div className="mb-4">
+          <p> Already have an account? <a href="/login" className="text-[#77D3FF]" >Login</a></p>
         </div>
       </form>
     </div>

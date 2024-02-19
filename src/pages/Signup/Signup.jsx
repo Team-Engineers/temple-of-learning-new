@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from '../../Assets/images/Logo/tol-logo.png'
-import mobSign from '../../Assets/images/signupImg/mobSign.png'
-import SignFb from '../../Components/SignFb/SignFb'
-import Form from '../../Components/SignForm/Form'
-import SignInGoogle from '../../Components/SignGoogle/SignInGoogle'
+import logo from '../../assets/images/Logo/tol-logo.png'
+import mobSign from '../../assets/images/signupImg/mobSign.png'
+import SignFb from '../../components/SignFb/SignFb'
+import Form from '../../components/SignForm/Form'
+import SignInGoogle from '../../components/SignGoogle/SignInGoogle'
 import './signup.css'
 
 
