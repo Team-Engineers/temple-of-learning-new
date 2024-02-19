@@ -4,13 +4,12 @@
     font-size: 22px;
     font-weight: 700;
     width: 156px;
-    height: 27px;
-    /* margin-top: 40px;
-    margin-left: 528px; */
+    height: 66px;
     font-family: Inter;
-    line-height: 27px;
+    line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
+    margin-left: 21px;
 }
 
 .form-group {
@@ -30,17 +29,28 @@
 #firstName,
 #lastName,
 #phoneNumber,
-#email,
-#school,
-#state,
-#classCourse,
-#inquiry {
+#email
+ {
     width: 331.1px;
     height: 55.93px;
     border-radius: 128.64px;
     border: 1.12px solid black;
     padding-left: 12px;
     margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+#school,
+#state,
+#classCourse,
+#inquiry{
+    width: 690.1px;
+    height: 55.93px;
+    border-radius: 128.64px;
+    border: 1.12px solid black;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .placeholder-style {
@@ -54,13 +64,28 @@
     text-align: left;
     padding-left: 12px;
     display: inline-block;
+    margin: 6px 6px 0 16px
+}
+.placeholder-style1{
+    width: 93px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 12px;
+    display: inline-block;
+    margin: 6px 6px 0 16px
+
 }
 
 .contact-card {
     width: 404.82px;
     height: 651.93px;
-    margin-top: 15px;
-    margin-left: 91px;
+    margin-top: 41px;
+    margin-left: 39px;
     border-radius: 0px 16.26px 0px 16.26px;
     background: rgba(59, 98, 236, 1);
     padding: 20px;
@@ -107,7 +132,7 @@
     width: 298.66px;
     height: 80.54px;
     margin-top: 20px;
-    margin-left: 528px;
+    margin-left: 409px;
     border-radius: 30px;
     position: relative;
     background-color: rgba(200, 240, 49, 1)!important;
@@ -121,11 +146,11 @@
 }
 
 .eclipse {
-    margin: -107px -103px -87px 120px;
     padding: 0;
-    position: relative;
+    margin: 0px 0 0 76px;
+    /* position: relative;
     left: -41px;
-    top: -12px;
+    top: -12px; */
 }
 
 .social-icons {
@@ -137,7 +162,7 @@
 .icon {
     width: 27px;
     height: 27px;
-    margin-right: 10px; /* Adjust spacing between icons */
+    margin-right: 10px; 
 }
 
 .circle {
@@ -151,3 +176,10 @@
     z-index: -1;
     filter: blur(97px);
 }
+.form-container{
+    margin-top: 55px;
+    margin-left: -46px;
+    padding-left: 301px;
+    display: inline-grid;
+}
+
