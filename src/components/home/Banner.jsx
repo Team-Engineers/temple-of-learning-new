@@ -7,14 +7,14 @@ const Banner = () => {
         <div className="relativ flex h-screen justify-center items-center mx-[100px]">
             <div className="text-container flex flex-col gap-[3vw]">
                 <div>
-                <h1 className='h1'>
-                    <b>Empowering Excellence through<br /> Professional Growth and<br /> Lifelong Learning.</b>
-                </h1>
+                    <h1 className='h1'>
+                        <b>Empowering Excellence through<br /> Professional Growth and<br /> Lifelong Learning.</b>
+                    </h1>
                 </div>
                 <p className=''>Transform Your Career with Live Tech Bootcamps and<br /> Online Classes - Ignite Your Journey or Supercharge Your Success!</p>
                 <div className="button-container mt-[3vw] ">
                     <button className="button1">Get Started</button>
-                    <button className="button">Explore Courses</button>
+                    <button className="button3 bg-white p-2 px-8 shadow-2xl rounded-3xl font-bold ">Explore Courses</button>
                 </div>
             </div>
             <div className="image-container ">

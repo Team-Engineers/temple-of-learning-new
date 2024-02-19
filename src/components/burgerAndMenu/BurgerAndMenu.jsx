@@ -86,27 +86,27 @@ const BurgerAndMenu = () => {
   };
   return (
     <>
-       <StyledBurger open={open} onClick={handleMenuClick}>
+      <StyledBurger open={open} onClick={handleMenuClick}>
         <div />
         <div />
         <div />
       </StyledBurger>
       <StyledMenu className="max-lg:w-full" open={open}>
         <NavLink to="/" onClick={handleMenuClick}>
-            Home
-          </NavLink>
-          <NavLink to="/about" onClick={handleMenuClick}>
-            About
-          </NavLink>
-          <NavLink to="/courses" onClick={handleMenuClick}>
-            Courses
-          </NavLink>
-          <NavLink to="/contact" onClick={handleMenuClick}>
-            Contact
-          </NavLink>
-          <NavLink to="/signin" onClick={handleMenuClick}>
-            Login/Signup
-          </NavLink>
+          Home
+        </NavLink>
+        <NavLink to="/about" onClick={handleMenuClick}>
+          About
+        </NavLink>
+        <NavLink to="/courses" onClick={handleMenuClick}>
+          Courses
+        </NavLink>
+        <NavLink to="/contact" onClick={handleMenuClick}>
+          Contact
+        </NavLink>
+        <NavLink to="/signup" onClick={handleMenuClick}>
+          Login/Signup
+        </NavLink>
       </StyledMenu>
     </>
   );

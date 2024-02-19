@@ -32,26 +32,26 @@ height: 58px; */
 font-weight: 700;
 font-size: 26px;
 padding-left: 2rem;
-padding-top: 7rem;
+padding-top: 8rem;
 /* text-align: center; */
 color: #565353;
+position: relative;
 }
 .logo{
-    position:fixed;
-    width: 100px;
+width: 100px;
 height: 50px;
-top: 27px;
-left: 37px;
+padding-top: 5px;
+padding-left: 3px;
 
 }
 
 /* Mobile login-amico 1 */
 .img-sec{
-    position: fixed;
-    height: 575px;
-    width: 544px;
-    top:25vh;
-    left:20vh;
+    /* position: relative; */
+    width:  402px;
+    height:398px;
+   margin-top: 50px;
+    margin-left:50px;
     /* background: url(../../assets/signupImg/mobSign.png); */
     filter: drop-shadow(12px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -78,6 +78,17 @@ color: #000000;
       color: rgba(0, 0, 0, 0.5);
      
 }
+.google{
+    /* Rectangle 31 */
+box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.5);
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
 
-
-
+.fb{
+    box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.5);
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+}
