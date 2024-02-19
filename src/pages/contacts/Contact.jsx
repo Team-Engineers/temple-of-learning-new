@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar/Navbar';
-import './Style.css';
-import PhoneIcon from './Phone.png';
-import EnvelopeIcon from './Envelope.png'
-import FacebookIcon from './Facebook.png';
-import LinkdinIcon from './LinkedIn.png';
-import InstagramIcon from './Instagram.png';
-import LocationIcon from './Location.png';
-import GoogleIcon from './Google.png';
-import Ellipse from './Ellipse 7.png';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/footer/Footer';
+import './contact.css';
+import PhoneIcon from '../../assets/contact/Phone.png';
+import EnvelopeIcon from '../../assets/contact/Envelope.png'
+import FacebookIcon from '../../assets/contact/Facebook.png';
+import LinkdinIcon from '../../assets/contact/LinkedIn.png';
+import InstagramIcon from '../../assets/contact/Instagram.png';
+import LocationIcon from '../../assets/contact/Location.png';
+import GoogleIcon from '../../assets/contact/Google.png';
+import Ellipse from '../../assets/contact/Ellipse 7.png';
 
 function Contact() {
     const [firstName, setFirstName] = useState(''); // Default value for first name
@@ -28,31 +29,8 @@ function Contact() {
     return (
         <div className="contact-container">
             <Navbar/>
-            <h1 className='heading-container'>Request a Call</h1>
-            <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <input type="text" id="firstName" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder='First Name' className="placeholder-style" required />
-                    <input type="text" id="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder='Last Name' className="placeholder-style1" required />
-                </div>
-                <div className="form-group">
-                    <input type="tel" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} placeholder='Phone Number' className="placeholder-style2" required />
-                    <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email'className="placeholder-style3" required />
-                </div>
-                <div className="form-group">
-                    <input type="text" id="school" value={school} onChange={(e) => setSchool(e.target.value)} placeholder='School' className="placeholder-style4" />
-                </div>
-                <div className="form-group">
-                    <input type="text" id="state" value={state} onChange={(e) => setState(e.target.value)} placeholder='state' className="placeholder-style5" />
-                </div>
-                <div className="form-group">
-                    <input type="text" id="classCourse" value={classCourse} onChange={(e) => setClassCourse(e.target.value)} placeholder='Class/Course' className="placeholder-style6" />
-                </div>
-                <div className="form-group">
-                    <textarea id="inquiry" value={inquiry} onChange={(e) => setInquiry(e.target.value)} placeholder='Inquiry about available programs' className="placeholder-style7" />
-                </div>
-                <button className='button' type="submit">Request</button>
-            </form>
-            <div class="contact-card">
+            <div className='grid grid-cols-3'>
+            <div className="contact-card max-w-[400px]">
                  <h2>Contact Us</h2>
                 <p className='p-container'>Our team will get in touch with you promptly upon form submission.</p>
             <div class="contact-details">
@@ -74,9 +52,38 @@ function Contact() {
                 <img src={Ellipse} alt="ellipse" class="eclipse" />
                 </div>
             </div>
+            </div>
+                <div className='max-w-[600px]'>
+            <h1 className='heading-container'>Request a Call</h1>
+            
+            <form onSubmit={handleSubmit}>
+                <div className="form-group">
+                    <input type="text" id="firstName" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder='First Name' className="placeholder-style " required />
+                    <input type="text" id="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder='Last Name' className="placeholder-style" required />
+                </div>
+                <div className="form-group">
+                    <input type="tel" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} placeholder='Phone Number' className="placeholder-style2" required />
+                    <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email'className="placeholder-style3" required />
+                </div>
+                <div className="form-group">
+                    <input type="text" id="school" value={school} onChange={(e) => setSchool(e.target.value)} placeholder='School' className="placeholder-style4" />
+                </div>
+                <div className="form-group">
+                    <input type="text" id="state" value={state} onChange={(e) => setState(e.target.value)} placeholder='state' className="placeholder-style5" />
+                </div>
+                <div className="form-group">
+                    <input type="text" id="classCourse" value={classCourse} onChange={(e) => setClassCourse(e.target.value)} placeholder='Class/Course' className="placeholder-style6" />
+                </div>
+                <div className="form-group">
+                    <textarea id="inquiry" value={inquiry} onChange={(e) => setInquiry(e.target.value)} placeholder='Inquiry about available programs' className="placeholder-style7" />
+                </div>
+                <button className='button' type="submit">Request</button>
+            </form>
+            </div>
         </div>
         <div className='circle'> </div>
 
+        <Footer/>
         </div>
     );
 }
