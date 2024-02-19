@@ -1,17 +1,17 @@
 import React from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { datas } from "../../constants/Arsenal";
 import FlipCard from "./flipcard/FlipCard";
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import { Keyboard, Mousewheel, Pagination } from 'swiper/modules';
 
 function Arsenal() {
     return (
-        <div className="my-[100px]">
+        <div className="my-[100px] mx-[50px]">
             <div>
                 <h1 className="text-[40px] my-16 font-bold text-center">
                     Courses In Our Arsenal
@@ -25,7 +25,7 @@ function Arsenal() {
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Pagination, Keyboard ,Mousewheel]}
+                modules={[Pagination, Keyboard, Mousewheel]}
                 className="mySwiper"
             >
                 {datas?.map((card, i) => (
