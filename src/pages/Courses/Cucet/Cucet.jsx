@@ -167,7 +167,7 @@ const Cucet = () => {
           <p className='mt-4 mb-4'>The fee varies according to the mode of payment. PwD candidates are exempted from paying any application fee</p>
         </div>
         <div>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto  ml-8">
             <table className="table-auto min-w-full divide-y divide-gray-200">
               <thead className="bg-[#0D88CB] text-white text-lg">
                 <tr>
@@ -217,7 +217,7 @@ const Cucet = () => {
         <div className="mt-6 ml-8 mr-8 justify-center" >
           <b className="text-[#0D88CB]">CUCET Application fees</b>
           <p className="text-justify mb-4">The fee varies according to the mode of payment. PwD candidates are exempted from paying any application fee.</p>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto  ml-8">
             <table className="table-auto min-w-full divide-y divide-gray-200">
               <thead className='bg-[#0D88CB] text-white text-lg'>
                 <tr >
@@ -259,7 +259,7 @@ const Cucet = () => {
           </div>
         </div>
         <div>
-          <div className="col col-lg-12 col-xs-12 about-company-s2-slider-wrapper">
+          <div className="col col-lg-12 col-xs-12 about-company-s2-slider-wrapper ml-8">
             <p className="text-justify font-bold text-[#0D88CB] mt-3 mb-3">Top Universities for CUCET Admissions</p>
             <p className="text-justify">With NTA Common Aptitude Test, you can get admission into any of the 54 universities. Let us understand about the top universities below:</p>
             <p className="text-justify font-bold text-[#0D88CB] mt-3 mb-3">Jamia Millia Islamia</p>
