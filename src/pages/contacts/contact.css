@@ -113,10 +113,10 @@
 .button {
     width: 298.66px;
     height: 70.54px;
-    margin-top: 20px;
-    margin-left: 409px;
+    margin-top: 60px;
+    margin-left: 390px;
     border-radius: 30px;
-    position: relative;
+    /* position: relative; */
     background-color: rgba(200, 240, 49, 1)!important;
     color: black;
     text-align: center;
