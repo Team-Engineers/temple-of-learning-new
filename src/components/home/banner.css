@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    /* height: 100%; */
-}
+
 .banner-container {
     display: flex;
     justify-content: space-between; 
@@ -14,13 +10,11 @@
 
 .text-container {
     text-align: start; 
-    padding: 0 0 0 393px;
     white-space: nowrap;
 }
 .text-container h1 {
     width: 649px;
     height: 144px;
-    position: absolute;
     top: 247px;
     left: 90px;
     font-size: 40px;
@@ -34,7 +28,6 @@
 .text-container p {
     width: 453px;
     height: 34px;
-    position: absolute;
     top: 406px;
     left: 90px;
     font-size: 14px;
@@ -44,33 +37,19 @@
 
 
 .button-container {
-    display: flex;
+    display: flex;  
+    gap: 10vw;
     margin-bottom: 5px;
     
 }
-.button {
-    width: 213px;
-    height: 53px;
-    position: absolute;
-    top: 481px;
-    left: 327px;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
+.button3{
     box-shadow: 0 9px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    line-height: 53px;
-    cursor: pointer;
-    border: none;
 }
 
 
 .button1 {
     width: 168px;
     height: 53px;
-    position: absolute;
     top: 481px;
     left: 92px;
     border-radius: 25px;
@@ -90,7 +69,6 @@
 .banner-image {
         width: 527px;
         height: 547px;
-        position: absolute;
         top: 69px;
         left: 733px;
     
@@ -103,10 +81,7 @@
     top: 69px;
     left: 733px; */
 }
-.image-container{
-  top: 69px;
-  left: 733px;
-}
+
 .gradient-ellipse {
     width: 467px;
     height: 467px;
@@ -126,8 +101,8 @@
 .gradient-ellipse1{
     width: 467px;
     height: 467px;
-    position: absolute;
     top: 311px;
+    position: absolute;
     left: 575px;
     background: rgba(240, 242, 163, 1);
     /* box-shadow: 1px 1px 18px 20px #FFFFFF; */
