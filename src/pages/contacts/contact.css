@@ -5,29 +5,22 @@
     font-weight: 700;
     width: 156px;
     height: 66px;
-    font-family: Inter;
     line-height: 42px;
-    letter-spacing: 0em;
-    text-align: left;
     margin-left: 21px;
-}
-
-.form-group {
-    font-family: Inter;
-    color: black;
+    margin-bottom: -50px;
 }
 
 .contact-container {
     width: 684px;
-    height: 584.54px;
+    height: 744.54px;
     margin-top: 6px;
-    margin-left: 91px;
-    font-family: Inter;
-    color: black;
+    margin-left: 41px;
 }
 
 #firstName,
 #lastName,
+#school,
+#state,
 #phoneNumber,
 #email
  {
@@ -40,8 +33,6 @@
     font-weight: bold;
     
 }
-#school,
-#state,
 #classCourse,
 #inquiry{
     width: 690.1px;
@@ -56,41 +47,32 @@
 .placeholder-style {
     width: 93px;
     height: 22px;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
-    letter-spacing: 0;
-    text-align: left;
     padding-left: 12px;
-    display: inline-block;
     margin: 6px 6px 0 16px
 }
 .placeholder-style1{
     width: 93px;
     height: 22px;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 500;
     line-height: 47px;
-    letter-spacing: 0;
-    text-align: left;
     padding-left: 12px;
-    display: inline-block;
     margin: 6px 6px 0 16px
 
 }
 
 .contact-card {
-    width: 404.82px;
-    height: 651.93px;
+    width: 400px;
+    height: 631.93px;
     margin-top: 41px;
-    margin-left: 39px;
+    margin-left: 30px;
     border-radius: 0px 16.26px 0px 16.26px;
     background: rgba(59, 98, 236, 1);
     padding: 20px;
     color: white;
-    font-family: Inter;
     font-weight: bold;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -130,7 +112,7 @@
 
 .button {
     width: 298.66px;
-    height: 80.54px;
+    height: 70.54px;
     margin-top: 20px;
     margin-left: 409px;
     border-radius: 30px;
@@ -138,7 +120,7 @@
     background-color: rgba(200, 240, 49, 1)!important;
     color: black;
     text-align: center;
-    line-height: 80.54px; /* Vertically center text */
+    line-height: 70.54px; /* Vertically center text */
     font-size: 22px;
     font-weight: 700;
     cursor: pointer;
@@ -147,10 +129,7 @@
 
 .eclipse {
     padding: 0;
-    margin: 0px 0 0 76px;
-    /* position: relative;
-    left: -41px;
-    top: -12px; */
+    margin: -20px 0 0 76px; 
 }
 
 .social-icons {
@@ -178,7 +157,7 @@
 }
 .form-container{
     margin-top: 55px;
-    margin-left: -46px;
+    margin-left: -56px;
     padding-left: 301px;
     display: inline-grid;
 }
