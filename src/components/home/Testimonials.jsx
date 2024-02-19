@@ -1,16 +1,16 @@
 import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Testimonialsdatas } from "../../constants/testimonialdata";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Testimonialsdatas } from "../../constants/testimonialdata";
 
 import { Navigation, Pagination } from 'swiper/modules';
 
 export default function Testimonials() {
     return (
         <>
-             <Swiper
+            <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
                 navigation={true}
