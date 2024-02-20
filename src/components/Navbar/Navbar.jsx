@@ -142,7 +142,7 @@ const Navbar = () => {
                       CUCET
                     </p>
                   </Link>
-                  <Link to="/iim-indore-ipm">
+                  <Link to="/iim-indore">
                     <p className="hover:bg-blue-400 text-[1.3vw] hover:text-white hover:shadow-black  rounded-xl px-2">
                       IIM Indore, IPM
                     </p>
