@@ -8,8 +8,8 @@ const Rohtak = () => {
     <div>
       <Navbar />
 
-      <main id="body-content" className="main-content">
-      <div className="bg-[#C4F7D1] absolute inset-0 z-[-1] filter blur-[75px] w-56 h-48 border-black top-32 "></div>
+      <main id="body-content" className="main-content max-w-[1200px] mx-auto overflow-hidden">
+        <div className="bg-[#C4F7D1] absolute inset-0 z-[-1] filter blur-[75px] w-56 h-48 border-black top-32 "></div>
         <section className="about-company-s2 section-padding">
           <div className="container-section">
             <div className="row">
@@ -91,9 +91,9 @@ const Rohtak = () => {
             </div>
           </div>
         </section>
-        
+
         <div className='flex justify-center'>
-             <Link to="/login" className="register-button">Register</Link>
+          <Link to="/login" className="register-button">Register</Link>
         </div>
       </main>
       <div>

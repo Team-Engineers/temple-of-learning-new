@@ -4,11 +4,11 @@ import "./App.css";
 import About from "./pages/About";
 import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
+import Rohtak from "./pages/Courses/rohtak/Rohtak";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
-import Rohtak from "./pages/Courses/rohtak/Rohtak";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cucet" element={<Cucet />} />
-        <Route path="/rohtak" element={<Rohtak />}/>
+        <Route path="/iim-rohtak" element={<Rohtak />} />
       </Routes>
     </Router>
   );
