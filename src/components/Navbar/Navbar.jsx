@@ -147,7 +147,7 @@ const Navbar = () => {
                       IIM Indore, IPM
                     </p>
                   </Link>
-                  <Link to="/iim-rohtak-ipm">
+                  <Link to="/iim-rohtak">
                     <p className="hover:bg-blue-400 text-[1.3vw] hover:text-white hover:shadow-black  rounded-xl px-2">
                       IIM Rohtak, IPM
                     </p>
@@ -157,7 +157,7 @@ const Navbar = () => {
                       IIM Bodhgaya, IPM
                     </p>
                   </Link>
-                  <Link to="/iim-ranchi-ipm">
+                  <Link to="/iim-ranchi">
                     <p className="hover:bg-blue-400 text-[1.3vw] hover:text-white hover:shadow-black  rounded-xl px-2">
                       IIM Ranchi, IPM
                     </p>
