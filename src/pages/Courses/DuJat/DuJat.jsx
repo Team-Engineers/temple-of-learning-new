@@ -76,7 +76,7 @@ const DuJat = () => {
                     </div>
                 ))}
 
-                <div className="mt-8 ml-8 w-[1080px]">
+                <div className="mt-8 ml-8 w-[1200px]">
                     <div className="self-stretch rounded bg-darkslategray overflow-hidden">
                         <table className="w-full">
                             <thead>
@@ -90,43 +90,43 @@ const DuJat = () => {
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
                                     <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border-t border-solid border-steelblue-100 border-l border-r py-3 px-4">20</td>
 
                                 </tr>
                                 <tr className="">
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Fundamental Accounting</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
-                                    <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">20</td>
+                                    <td className="border border-solid border-steelblue-100 py-3 px-4">Fundamental Accounting</td>
+                                    <td className="border border-solid border-steelblue-100 py-3 px-4">20</td>
+                                    <td className="border border-solid border-steelblue-100 py-3 px-4">20</td>
 
                                 </tr>
                             </tbody>
