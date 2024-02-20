@@ -23,8 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
-        <Route path ="/cucet" element={<Cucet/>}/>
-        <Route path="/IIM" element={<IIMRanchi/>}/>
+        <Route path="/cucet" element={<Cucet />} />
+        <Route path="/iim-ranchi" element={<IIMRanchi />} />
       </Routes>
     </Router>
   );
