@@ -6,7 +6,7 @@
     /* text-align: center; */
     text-transform: none;
     font-weight: bold;
-    /* border-bottom: 4px solid #0d88cb; */
+    border-bottom: 4px solid #0d88cb;
     margin: 28px 0 43px 0;
     font-size: 24px;
     width: fit-content;
@@ -45,6 +45,23 @@
   text-align: left;
   border-width: 0px 1px 1px 1px; 
   font-weight: 400;
+}
+.b1{
+    font-weight: 400;
+}
+.register-button {
+    background-color: #0D88CB;
+    padding: 4px 200px;
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin: 19px 0 27px 0px;
 }
 
 /* .custom-table th {
