@@ -8,6 +8,7 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
+import Rohtak from "./pages/Courses/rohtak/Rohtak";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cucet" element={<Cucet />} />
+        <Route path="/rohtak" element={<Rohtak />}/>
       </Routes>
     </Router>
   );
