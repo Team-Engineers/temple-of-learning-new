@@ -3,11 +3,15 @@ import Signup from "./pages/Signup/Signup";
 
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import CoursesChrist from "./components/courses/courses";
+// import CoursesChrist from "./components/courses/courses";
 import About from "./pages/About";
+import Cucet from "./pages/Courses/Cucet/Cucet";
+import DuJat from "./pages/Courses/DuJat/DuJat";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
-import Cucet from "./pages/Courses/Cucet/Cucet";
+
+import Contact from "./pages/contacts/Contact";
+import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
 
 function App() {
   return (
@@ -16,9 +20,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/dujat" element={<CoursesChrist />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
         <Route path ="/cucet" element={<Cucet/>}/>
+        <Route path="/IIM" element={<IIMRanchi/>}/>
       </Routes>
     </Router>
   );
