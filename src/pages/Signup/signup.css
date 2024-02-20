@@ -8,7 +8,7 @@
 
 .second{
 padding: 70px;
-width: 70%;
+width: 80%;
 background: #FFFFFF;
 box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
 border-radius: 60px 0px 0px 60px;
@@ -17,27 +17,26 @@ border-radius: 60px 0px 0px 60px;
    
 
 .discover p{
-
 font-weight: 700;
 font-size: 26px;
 padding-left: 2rem;
-padding-top: 8rem;
+padding-top: 6rem;
 color: #565353;
 position: relative;
 }
 .tol-logo{
-width: 100px;
-height: 50px;
+width: 120px;
+height: 20px;
 padding-top: 5px;
 padding-left: 3px;
 }
 
 .img-sec img{
-    /* position: fixed; */
-    width: 402px;
-    height:398px;
-    margin-top: 50px;
-   margin-left:15rem;
+    /* position:absolute; */
+    width: 520px;
+    height:530px;
+    margin-top:10px;
+   margin-left:105px;
 filter: drop-shadow(12px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .account{
