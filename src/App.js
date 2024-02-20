@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./pages/About";
 import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
+import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
 import Rohtak from "./pages/Courses/rohtak/Rohtak";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cucet" element={<Cucet />} />
         <Route path="/iim-rohtak" element={<Rohtak />} />
+        <Route path="/iim-ranchi" element={<IIMRanchi />} />
       </Routes>
     </Router>
   );
