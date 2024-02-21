@@ -152,7 +152,7 @@ const Navbar = () => {
                       IIM Rohtak, IPM
                     </p>
                   </Link>
-                  <Link to="/iim-bodhgaya-ipm">
+                  <Link to="/iim-bodhgaya">
                     <p className="hover:bg-blue-400 text-[1.3vw] hover:text-white hover:shadow-black  rounded-xl px-2">
                       IIM Bodhgaya, IPM
                     </p>

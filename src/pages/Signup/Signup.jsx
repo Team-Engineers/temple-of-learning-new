@@ -10,10 +10,13 @@ import './signup.css'
 function Signup() {
   return (
     <div className="signup flex">
+
        <div className="ml-3">
+
       <div className='tol-logo'>
         <img src={Tollogo} alt='logo'></img>
       </div>
+    
       <div className="discover">
         <p>Discover Courses and Career
           Paths at Your Fingertips</p>
@@ -38,6 +41,7 @@ function Signup() {
         </div>
       </div>
     </div>
+
   )
 }
 

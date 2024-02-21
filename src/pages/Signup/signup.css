@@ -17,6 +17,7 @@ border-radius: 60px 0px 0px 60px;
    
 
 .discover p{
+
 font-weight: 700;
 font-size: 26px;
 padding-left: 2rem;
@@ -32,6 +33,7 @@ padding-left: 3px;
 }
 
 .img-sec img{
+
     /* position:absolute; */
     width: 520px;
     height:530px;
@@ -45,7 +47,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 36px;
 line-height: 44px;
-/* identical to box height */
+
 letter-spacing: 0.04em;
 
 color: #000000;
