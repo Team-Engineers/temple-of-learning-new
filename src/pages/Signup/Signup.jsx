@@ -16,7 +16,7 @@ function Signup() {
       <div className='tol-logo'>
         <img src={Tollogo} alt='logo'></img>
       </div>
-      <div>
+    
       <div className="discover">
         <p>Discover Courses and Career
           Paths at Your Fingertips</p>
@@ -41,6 +41,7 @@ function Signup() {
         </div>
       </div>
     </div>
+
   )
 }
 

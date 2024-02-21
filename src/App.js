@@ -26,7 +26,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path ="/cucet" element={<Cucet/>}/>
         <Route path="/iim-ranchi" element={<IIMRanchi/>}/>
-        <Route path="/iim-bodh-gaya" element={<IIMBodhgaya/>}/>
+        <Route path="/iim-bodhgaya" element={<IIMBodhgaya/>}/>
         <Route path="/iim-rohtak" element={<Rohtak />} />  
         <Route path="/iim-indore" element={<Indore />} />
         <Route path="/iim-jammu" element={<Jammu/>} />
