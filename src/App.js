@@ -9,9 +9,9 @@ import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
-
 import Contact from "./pages/contacts/Contact";
 import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
+import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 
 function App() {
   return (
@@ -24,7 +24,8 @@ function App() {
         <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
         <Route path ="/cucet" element={<Cucet/>}/>
-        <Route path="/IIM" element={<IIMRanchi/>}/>
+        <Route path="/iim-ranchi" element={<IIMRanchi/>}/>
+        <Route path="/iim-bodh-gaya" element={<IIMBodhgaya/>}/>
       </Routes>
     </Router>
   );
