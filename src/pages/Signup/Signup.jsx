@@ -10,6 +10,9 @@ import './signup.css'
 function Signup() {
   return (
     <div className="signup flex">
+
+       <div className="ml-3">
+
       <div className='tol-logo'>
         <img src={Tollogo} alt='logo'></img>
       </div>

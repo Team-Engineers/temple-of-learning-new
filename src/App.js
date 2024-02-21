@@ -1,16 +1,17 @@
 import "./App.css";
 import Signup from "./pages/Signup/Signup";
-
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-// import CoursesChrist from "./components/courses/courses";
 import About from "./pages/About";
 import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
+import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
+import Indore from "./pages/Courses/indore/Indore";
+import Jammu from "./pages/Courses/jammu/Jammu";
+import Rohtak from "./pages/Courses/rohtak/Rohtak";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Contact from "./pages/contacts/Contact";
-import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
         <Route path ="/cucet" element={<Cucet/>}/>
         <Route path="/iim-ranchi" element={<IIMRanchi/>}/>
         <Route path="/iim-bodh-gaya" element={<IIMBodhgaya/>}/>
+        <Route path="/iim-rohtak" element={<Rohtak />} />  
+        <Route path="/iim-indore" element={<Indore />} />
+        <Route path="/iim-jammu" element={<Jammu/>} />
       </Routes>
     </Router>
   );

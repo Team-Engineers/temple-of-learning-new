@@ -6,7 +6,7 @@ const Loginform = () => {
     <div className="container mx-auto py-8">
       <form className="max-w-lg mx-auto bg-white  rounded  pt-6 pb-8 mb-4">
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="">
           </label>
           <input className="  border-b border-gray-500 w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Your Email Address" />
         </div>
