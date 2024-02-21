@@ -6,6 +6,7 @@ import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
 import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
 import Indore from "./pages/Courses/indore/Indore";
+import Jammu from "./pages/Courses/jammu/Jammu";
 import Rohtak from "./pages/Courses/rohtak/Rohtak";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/iim-rohtak" element={<Rohtak />} />
         <Route path="/iim-ranchi" element={<IIMRanchi />} />
         <Route path="/iim-indore" element={<Indore />} />
+        <Route path="/iim-jammu" element={<Jammu/>} />
       </Routes>
     </Router>
   );
