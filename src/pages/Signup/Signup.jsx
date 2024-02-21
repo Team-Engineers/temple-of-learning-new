@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/Logo/tol-logo.png'
+import Tollogo from '../../assets/images/Logo/tol-logo.png'
 import mobSign from '../../assets/images/signupImg/mobSign.png'
 import SignFb from '../../components/SignFb/SignFb'
 import Form from '../../components/SignForm/Form'
@@ -10,8 +10,9 @@ import './signup.css'
 function Signup() {
   return (
     <div className="signup flex">
-      <div className='logo'>
-        <img src={logo} alt='logo'></img>
+       <div className="ml-3">
+      <div className='tol-logo'>
+        <img src={Tollogo} alt='logo'></img>
       </div>
       <div className="discover">
         <p>Discover Courses and Career
@@ -19,6 +20,7 @@ function Signup() {
       </div>
       <div className='img-sec'>
         <img src={mobSign} alt=''></img>
+      </div>
       </div>
       <div className="second">
         <div className="account pt-8">
@@ -34,9 +36,6 @@ function Signup() {
         <div>
           <Form />
         </div>
-        {/* <div className="flex justify-center">
-              <CreateButton/>
-            </div> */}
       </div>
     </div>
   )
