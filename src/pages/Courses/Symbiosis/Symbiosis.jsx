@@ -111,9 +111,10 @@ const Symbiosis = () => {
                 <span className="block mt-2">{info.description}</span>
             </div>
         ))}
-        <div className='flex justify-center mt-6'>
-          <Link to="/login" className="register-button">Register</Link>
-        </div>
+
+         <div className='flex justify-center'>
+        <Link to="/login" className="relative bg-[#0D88CB] px-[100px] rounded-3xl flex text-center justify-center text-white text-[30px] items-center my-6 pt-3 pb-3">Register</Link>
+      </div>
       </div>
       <Footer/>
     </div>
