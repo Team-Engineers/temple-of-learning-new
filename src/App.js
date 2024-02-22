@@ -13,6 +13,7 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Contact from "./pages/contacts/Contact";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
+import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/iim-rohtak" element={<Rohtak />} />  
         <Route path="/iim-indore" element={<Indore />} />
         <Route path="/iim-jammu" element={<Jammu/>} />
+        <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
       </Routes>
     </Router>
   );
