@@ -15,6 +15,8 @@ import Contact from "./pages/contacts/Contact";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
 import NMIMS from "./pages/Courses/nmims/Nmims";
+import CHRIST from "./pages/Courses/christ/Christ";
+
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/iim-jammu" element={<Jammu/>} />
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
         <Route path="/nmims-npat" element={<NMIMS />} />
+        <Route path="/christ-university" element={<CHRIST />} />
+
       </Routes>
     </Router>
   );
