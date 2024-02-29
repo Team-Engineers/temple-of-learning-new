@@ -3,24 +3,25 @@ import logo from '../../assets/images/Logo/tol-logo.png'
 import fb from '../../assets/images/Social-logo/fb-logo.png'
 import google from '../../assets/images/Social-logo/google-logo.png'
 import moblogin from '../../assets/images/loginImg/login.png'
-// import SignFb from '../../components/SignFb/SignFb'
-// import Form from '../../components/SignForm/Form'
 import Loginform from '../../components/loginForm/Loginform'
 import './login.css'
-// import SignInGoogle from '../../components/SignGoogle/SignInGoogle'
 
 function Login() {
   return (
-    <div className="signup flex">
+    <div className="signup">
+
+   <div className=" ml-3">
       <div className='logo'>
         <img src={logo} alt='logo'></img>
       </div>
-      <div className="discover">
+      <div className="discover pb-6">
+
         <p>Discover Courses and Career
           Paths at Your Fingertips</p>
       </div>
-      <div className='img-sec'>
+      <div className='img_sec'>
         <img src={moblogin} alt=''></img>
+      </div>
       </div>
       <div className="second">
         <div className="account pt-8">

@@ -12,7 +12,7 @@ const Form = () => {
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
           </label>
-          <input className="  border-b border-gray-500 w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email Address" />
+          <input className="border-b border-gray-500 w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline"  type="email" placeholder="Your Email Address" />
         </div>
         <div className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
