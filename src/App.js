@@ -17,6 +17,8 @@ import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
 import NMIMS from "./pages/Courses/nmims/Nmims";
 import CHRIST from "./pages/Courses/christ/Christ";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
+import DELHI from "./pages/Courses/delhi university/Delhi";
+
 
 
 function App() {
@@ -38,7 +40,9 @@ function App() {
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
-        <Route path="ipcw" element={<IPCW />} />
+        <Route path="/ipcw" element={<IPCW />} />
+        <Route path="/du-ba-hons" element={<DELHI />} />
+
 
       </Routes>
     </Router>
