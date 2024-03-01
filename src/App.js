@@ -19,6 +19,7 @@ import CHRIST from "./pages/Courses/christ/Christ";
 import XAVIER from "./pages/Courses/xavier/Xavier";
 import JAMIA from "./pages/Courses/jamia/Jamia";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
+import Clat from "./pages/Courses/CLAT/Clat";
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
         <Route path="jamia-millia-university" element={<JAMIA />}/>
         <Route path="ipcw" element={<IPCW />} />
-
+        <Route path ="/clat" element={<Clat/>}/> 
       </Routes>
     </Router>
   );
