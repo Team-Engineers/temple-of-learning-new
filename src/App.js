@@ -16,6 +16,8 @@ import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
 import NMIMS from "./pages/Courses/nmims/Nmims";
 import CHRIST from "./pages/Courses/christ/Christ";
+import XAVIER from "./pages/Courses/xavier/Xavier";
+import JAMIA from "./pages/Courses/jamia/Jamia";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
 import Clat from "./pages/Courses/CLAT/Clat";
 
@@ -39,6 +41,8 @@ function App() {
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
+        <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
+        <Route path="jamia-millia-university" element={<JAMIA />}/>
         <Route path="ipcw" element={<IPCW />} />
         <Route path ="/clat" element={<Clat/>}/> 
       </Routes>
