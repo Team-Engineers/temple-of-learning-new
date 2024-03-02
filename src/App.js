@@ -20,6 +20,7 @@ import XAVIER from "./pages/Courses/xavier/Xavier";
 import JAMIA from "./pages/Courses/jamia/Jamia";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
 import Clat from "./pages/Courses/CLAT/Clat";
+import Nlud from "./pages/Courses/NLUD/Nlud";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="jamia-millia-university" element={<JAMIA />}/>
         <Route path="ipcw" element={<IPCW />} />
         <Route path ="/clat" element={<Clat/>}/> 
+        <Route path = "/national-law-university-delhi" element={<Nlud/>}/>
       </Routes>
     </Router>
   );
