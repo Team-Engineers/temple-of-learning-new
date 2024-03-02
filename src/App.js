@@ -23,6 +23,8 @@ import Clat from "./pages/Courses/CLAT/Clat";
 import Nlud from "./pages/Courses/NLUD/Nlud";
 
 import Christ from "./pages/Courses/Christ-law/Christ-law";
+import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
+
 
 
 
@@ -52,6 +54,9 @@ function App() {
         <Route path ="/clat" element={<Clat/>}/> 
         <Route path = "/national-law-university-delhi" element={<Nlud/>}/>
         <Route path= "/christ-university-law" element={<Christ/>}/>
+        <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
+
+
 
       </Routes>
     </Router>
