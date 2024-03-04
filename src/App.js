@@ -19,6 +19,8 @@ import CHRIST from "./pages/Courses/christ/Christ";
 import XAVIER from "./pages/Courses/xavier/Xavier";
 import JAMIA from "./pages/Courses/jamia/Jamia";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
+import DELHI from "./pages/Courses/delhi university/Delhi";
+
 import Clat from "./pages/Courses/CLAT/Clat";
 import Nlud from "./pages/Courses/NLUD/Nlud";
 import Christ from "./pages/Courses/Christ-law/Christ-law";
@@ -46,6 +48,9 @@ function App() {
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
+        <Route path="/ipcw" element={<IPCW />} />
+        <Route path="/du-ba-hons" element={<DELHI />} />
+
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
         <Route path="jamia-millia-university" element={<JAMIA />}/>
         <Route path="ipcw" element={<IPCW />} />
