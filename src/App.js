@@ -26,6 +26,8 @@ import Nlud from "./pages/Courses/NLUD/Nlud";
 import Christ from "./pages/Courses/Christ-law/Christ-law";
 import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
 import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
+import NCHMCT from "./pages/Courses/nchmct/Nchmct";
+
 
 
 
@@ -59,6 +61,9 @@ function App() {
         <Route path= "/christ-university-law" element={<Christ/>}/>
         <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
         <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
+        <Route path="/nchmct" element={<NCHMCT />} />
+
+        
       </Routes>
     </Router>
   );
