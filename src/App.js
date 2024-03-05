@@ -34,6 +34,7 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
+import DU from "./pages/Courses/DU/Du";
 import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
 import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
 import IHM from "./pages/Courses/ihm/Ihm";
@@ -60,6 +61,7 @@ function App() {
         <Route path="/christ-university" element={<CHRIST />} />
         <Route path="/du-ba-hons" element={<DELHI />} />
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
+        <Route path="/dij-psychology" element={<DU />} />
         <Route path="/symbiosis-college-pune" element={<SymbiosisCommerce />} />
         <Route path="/christ-university-law" element={<ChristLaw />} />
         <Route path="/jamia-millia-islamia-law" element={<JamiaMillia />} />
@@ -76,7 +78,6 @@ function App() {
         <Route path="nmims-school-of-law" element={<NMIMSLaw />} />
         <Route path="/wgsha-manipal" element={<WGSHA />} />
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
-
       </Routes>
     </Router>
   );
