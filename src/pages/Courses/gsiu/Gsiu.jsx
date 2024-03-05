@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../../../components/Navbar/Navbar';
 import Footer from '../../../components/footer/Footer';
-// import './Ipcw.css';
-
 
 const GSIU = () => {
   return (
@@ -16,14 +14,13 @@ const GSIU = () => {
             <div className="row">
               <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                 <h2 className="heading-main-containers">
-                Gobind Singh Indraprastha University
+                  Gobind Singh Indraprastha University
                 </h2>
               </div>
               <div className="col about-company-s2-slider-wrapper">
                 <p className="ph-justify"><b className='b-container'>Eligibility:</b></p>
                 <p className='ph-justify'>Minimum 50% in Senior Secondary (XIIth) with English as a subject. Age should be less than 21 years as on 1st August</p>
                 <p className="ph-justify"><b className='b-container'>Selection :</b> Objective-type written exam to be held in 21st May 2017</p>
-
 
                 <p className="ph-justify"><b className='b-container'>WRITTEN TEST PATTERN :</b></p>
                 <div className="tab-pane fade show active" id="pills-home">
@@ -142,7 +139,42 @@ const GSIU = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {/* Table body content */}
+                    <tr>
+                      <td>Food Production & Patisserie-III</td>
+                      <td>Food Production & Patisserie-IV</td>
+                    </tr>
+                    <tr>
+                      <td>Front Office Operations III</td>
+                      <td>Front Office Operations IV</td>
+                    </tr>
+                    <tr>
+                      <td>Food & Beverage Service-III</td>
+                      <td>Food & Beverage Service- IV</td>
+                    </tr>
+                    <tr>
+                      <td>Housekeeping Operations III</td>
+                      <td>Housekeeping Operations-IV</td>
+                    </tr>
+                    <tr>
+                      <td>Food Science & Nutrition</td>
+                      <td>Hotel Engineering</td>
+                    </tr>
+                    <tr>
+                      <td>PC Tools for Hospitality Industry-II</td>
+                      <td>Material Management & Development</td>
+                    </tr>
+                    <tr>
+                      <td>Tourism Product, Services & Management</td>
+                      <td>Principles of Management</td>
+                    </tr>
+                    <tr>
+                      <td>Summer Training Report</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Environmental Studies</td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -156,7 +188,34 @@ const GSIU = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {/* Table body content */}
+                    <tr>
+                      <td>Food Production & Patisserie-V</td>
+                      <td>-Functional Exposure Training</td>
+                    </tr>
+                    <tr>
+                      <td>Front Office Operations-V</td>
+                      <td>As per training Programme Designed followed by Project Report</td>
+                    </tr>
+                    <tr>
+                      <td>Food & Beverage Service V</td>
+                      <td>and Project Presentation during Semester End Examination.</td>
+                    </tr>
+                    <tr>
+                      <td>Housekeeping Operations V</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Research Project Design & Methodology</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Hotel Law & Licensing</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Facility Planning</td>
+                      <td></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -170,11 +229,53 @@ const GSIU = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {/* Table body content */}
+                    <tr>
+                      <td>Advance Food Production Management-I</td>
+                      <td>Advance Food Production Mgmt-II</td>
+                    </tr>
+                    <tr>
+                      <td>Rooms Division Management -I</td>
+                      <td>Advance Rooms Division Mgmt-II</td>
+                    </tr>
+                    <tr>
+                      <td>Advance Food & Beverage</td>
+                      <td>Advance Food & Beverage Services Management -</td>
+                    </tr>
+                    <tr>
+                      <td>Service Management -I</td>
+                      <td>II</td>
+                    </tr>
+                    <tr>
+                      <td>Advance Housekeeping Operation</td>
+                      <td>Entrepreneurship Development & Business </td>
+                    </tr>
+                    <tr>
+                      <td>Mgmt-I</td>
+                      <td>Strategies</td>
+                    </tr>
+                    <tr>
+                      <td>Financial Management - I</td>
+                      <td>Financial Management-II</td>
+                    </tr>
+                    <tr>
+                      <td>Managing Hospitality Human</td>
+                      <td>Managing Hospitality Human Resources-II</td>
+                    </tr>
+                    <tr>
+                      <td>Resources-I</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Hospitality Service Marketing & Sales</td>
+                      <td>Integrated Marketing Communication</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Project Report</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
-
             </div>
           </div>
         </section>
@@ -183,9 +284,8 @@ const GSIU = () => {
           <Link to="/login" className="register-button1">Register</Link>
         </div>
       </main>
-      <div>
-        <Footer />
-      </div>
+
+      <Footer />
     </div>
   );
 };
