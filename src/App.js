@@ -35,33 +35,15 @@ import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
 
-import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
-import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
-import NMIMS from "./pages/Courses/nmims/Nmims";
-import CHRIST from "./pages/Courses/christ/Christ";
-import XAVIER from "./pages/Courses/xavier/Xavier";
-import JAMIA from "./pages/Courses/jamia/Jamia";
-import IPCW from "./pages/Courses/ipcw/Ipcw";
-import DELHI from "./pages/Courses/delhi university/Delhi";
-
-import Clat from "./pages/Courses/CLAT/Clat";
-import Nlud from "./pages/Courses/NLUD/Nlud";
-import Christ from "./pages/Courses/Christ-law/Christ-law";
-import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
-import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
-import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 import IPU from "./pages/Courses/IPU/IPU";
 
-
-import DU from "./pages/Courses/DU/Du";
-import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
-import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
-import IHM from "./pages/Courses/ihm/Ihm";
-import GSIU from "./pages/Courses/gsiu/Gsiu";
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
-
-
+import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
+import DU from "./pages/Courses/DU/Du";
+import GSIU from "./pages/Courses/gsiu/Gsiu";
+import IHM from "./pages/Courses/ihm/Ihm";
+import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
 
 function App() {
   return (
@@ -91,15 +73,15 @@ function App() {
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
 
-        <Route path ="/clat" element={<Clat/>}/> 
-        <Route path = "/national-law-university-delhi" element={<Nlud/>}/>
-        <Route path= "/christ-university-law" element={<Christ/>}/>
-        <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
-        <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
-        <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
-        <Route path = "ip-university" element= {<IPU/>}/>
+        <Route path="/clat" element={<Clat />} />
+        <Route path="/national-law-university-delhi" element={<Nlud />} />
+        <Route path="/christ-university-law" element={<Christ />} />
+        <Route path="/jamia-millia-islamia-law" element={<Jamia />} />
+        <Route path="nmims-school-of-law" element={<NMIMSLaw />} />
+        <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
+        <Route path="ip-university" element={<IPU />} />
 
-        <Route path="/christ-university-bcom" element={<CHRIST_COMMERCE/>} />
+        <Route path="/christ-university-bcom" element={<CHRIST_COMMERCE />} />
         <Route path="/ihm-aurangabad" element={<IHM />} />
         <Route path="/ip-university-hotel-management" element={<GSIU />} />
         <Route path="/nchmct" element={<NCHMCT />} />
@@ -110,9 +92,8 @@ function App() {
         <Route path="nmims-school-of-law" element={<NMIMSLaw />} />
         <Route path="/wgsha-manipal" element={<WGSHA />} />
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
-        <Route path ="bhu-uet-psychology" element={<BhuUet/>} />
+        <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
-
       </Routes>
     </Router>
   );
