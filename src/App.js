@@ -27,6 +27,7 @@ import Christ from "./pages/Courses/Christ-law/Christ-law";
 import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
 import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
 import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
+import IPU from "./pages/Courses/IPU/IPU";
 
 
 
@@ -51,7 +52,6 @@ function App() {
         <Route path="/christ-university" element={<CHRIST />} />
         <Route path="/ipcw" element={<IPCW />} />
         <Route path="/du-ba-hons" element={<DELHI />} />
-
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
         <Route path="jamia-millia-university" element={<JAMIA />}/>
         <Route path="ipcw" element={<IPCW />} />
@@ -61,6 +61,7 @@ function App() {
         <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
         <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
         <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
+        <Route path = "ip-university" element= {<IPU/>}/>
       </Routes>
     </Router>
   );
