@@ -34,6 +34,7 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
+import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
 import IHM from "./pages/Courses/ihm/Ihm";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 
@@ -62,6 +63,7 @@ function App() {
         <Route path="/jamia-millia-islamia-law" element={<JamiaMillia />} />
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
+        <Route path="/christ-university-bcom" element={<CHRIST_COMMERCE/>} />
         <Route path="/ihm-aurangabad" element={<IHM />} />
         <Route path="/ip-university-hotel-management" element={<GSIU />} />
         <Route path="/nchmct" element={<NCHMCT />} />
