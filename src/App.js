@@ -40,6 +40,8 @@ import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
 import IHM from "./pages/Courses/ihm/Ihm";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
+import MILIA from "./pages/Courses/jamia-physcology/Milia";
+
 
 
 function App() {
@@ -81,6 +83,8 @@ function App() {
         <Route path="/wgsha-manipal" element={<WGSHA />} />
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
+        <Route path="/jamia-millia-psychology" element={<MILIA />} />
+
 
       </Routes>
     </Router>
