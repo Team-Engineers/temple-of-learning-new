@@ -14,6 +14,7 @@ import Login from "./pages/Login/Login";
 import Contact from "./pages/contacts/Contact";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
+<<<<<<< HEAD
 import NMIMS from "./pages/Courses/nmims/Nmims";
 import CHRIST from "./pages/Courses/christ/Christ";
 import XAVIER from "./pages/Courses/xavier/Xavier";
@@ -30,6 +31,8 @@ import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 import SYMBIOSISC from "./pages/Courses/symbiosis-commerce/Symbiosis";
 
 
+=======
+>>>>>>> cde0c3d7bad7b084e421ff905867a646120158cc
 
 function App() {
   return (
@@ -48,6 +51,7 @@ function App() {
         <Route path="/iim-indore" element={<Indore />} />
         <Route path="/iim-jammu" element={<Jammu/>} />
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
+<<<<<<< HEAD
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
         <Route path="/ipcw" element={<IPCW />} />
@@ -64,6 +68,8 @@ function App() {
         <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
         <Route path = "/symbiosis-college-pune" element= {<SYMBIOSISC/>}/>
 
+=======
+>>>>>>> cde0c3d7bad7b084e421ff905867a646120158cc
       </Routes>
     </Router>
   );
