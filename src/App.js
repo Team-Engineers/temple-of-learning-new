@@ -34,6 +34,7 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
+import GSIU from "./pages/Courses/gsiu/Gsiu";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
         <Route path="/jamia-millia-islamia-law" element={<JamiaMillia />} />
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
+        <Route path="/ip-university-hotel-management" element={<GSIU />} />
         <Route path="/nchmct" element={<NCHMCT />} />
         <Route path="/clat" element={<Clat />} />
         <Route path="/national-law-university-delhi" element={<Nlud />} />
