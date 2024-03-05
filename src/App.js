@@ -26,7 +26,11 @@ import Nlud from "./pages/Courses/NLUD/Nlud";
 import Christ from "./pages/Courses/Christ-law/Christ-law";
 import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
 import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
+
 import WGSHA from "./pages/Courses/wgsha/Wgsha";
+
+=======
+import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 
 
 
@@ -50,7 +54,6 @@ function App() {
         <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
-        <Route path="/ipcw" element={<IPCW />} />
         <Route path="/du-ba-hons" element={<DELHI />} />
 
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
@@ -62,6 +65,9 @@ function App() {
         <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
         <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
         <Route path = "/wgsha-manipal" element={<WGSHA/>}/>
+
+
+        <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
 
       </Routes>
     </Router>
