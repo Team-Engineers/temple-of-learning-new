@@ -41,6 +41,8 @@ import IHM from "./pages/Courses/ihm/Ihm";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
+import STXAVIER from "./pages/Courses/stxavier/Stxavier";
+
 
 
 function App() {
@@ -83,6 +85,7 @@ function App() {
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path ="bhu-uet-psychology" element={<BhuUet/>} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
+        <Route path="/st-xaviers-mumbai-masscomm" element={<STXAVIER />} />
       </Routes>
     </Router>
   );
