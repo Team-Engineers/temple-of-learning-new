@@ -311,7 +311,7 @@ const Navbar = () => {
                   </Link>
                   <Link to="/ip-university-hotel-management">
                     <p className="hover:bg-blue-400 text-[1.3vw] hover:text-white hover:shadow-black  rounded-xl px-2">
-                      COBIND Singh IP University
+                      GOBIND Singh IP University
                     </p>
                   </Link>
                   <Link to="/ihm-aurangabad">
