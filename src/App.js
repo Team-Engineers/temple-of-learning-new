@@ -14,7 +14,6 @@ import Login from "./pages/Login/Login";
 import Contact from "./pages/contacts/Contact";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
-<<<<<<< HEAD
 import NMIMS from "./pages/Courses/nmims/Nmims";
 import CHRIST from "./pages/Courses/christ/Christ";
 import XAVIER from "./pages/Courses/xavier/Xavier";
@@ -24,15 +23,11 @@ import DELHI from "./pages/Courses/delhi university/Delhi";
 
 import Clat from "./pages/Courses/CLAT/Clat";
 import Nlud from "./pages/Courses/NLUD/Nlud";
-import Christ from "./pages/Courses/Christ-law/Christ-law";
-import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
+import ChristLaw from "./pages/Courses/Christ-law/Christ-law";
+import JamiaMillia from "./pages/Courses/Jamia-millia/Jamia-millia";
 import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
 import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
-import SYMBIOSISC from "./pages/Courses/symbiosis-commerce/Symbiosis";
-
-
-=======
->>>>>>> cde0c3d7bad7b084e421ff905867a646120158cc
+import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
 
 function App() {
   return (
@@ -44,32 +39,26 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/dujat" element={<DuJat />} />
         <Route path="/login" element={<Login />} />
-        <Route path ="/cucet" element={<Cucet/>}/>
-        <Route path="/iim-ranchi" element={<IIMRanchi/>}/>
-        <Route path="/iim-bodhgaya" element={<IIMBodhgaya/>}/>
-        <Route path="/iim-rohtak" element={<Rohtak />} />  
+        <Route path="/cucet" element={<Cucet />} />
+        <Route path="/iim-ranchi" element={<IIMRanchi />} />
+        <Route path="/iim-bodhgaya" element={<IIMBodhgaya />} />
+        <Route path="/iim-rohtak" element={<Rohtak />} />
         <Route path="/iim-indore" element={<Indore />} />
-        <Route path="/iim-jammu" element={<Jammu/>} />
-        <Route path= "/symbiosis-management" element={<Symbiosis/>}/>
-<<<<<<< HEAD
+        <Route path="/iim-jammu" element={<Jammu />} />
+        <Route path="/symbiosis-management" element={<Symbiosis />} />
         <Route path="/nmims-npat" element={<NMIMS />} />
         <Route path="/christ-university" element={<CHRIST />} />
         <Route path="/ipcw" element={<IPCW />} />
         <Route path="/du-ba-hons" element={<DELHI />} />
-
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
-        <Route path="jamia-millia-university" element={<JAMIA />}/>
-        <Route path="ipcw" element={<IPCW />} />
-        <Route path ="/clat" element={<Clat/>}/> 
-        <Route path = "/national-law-university-delhi" element={<Nlud/>}/>
-        <Route path= "/christ-university-law" element={<Christ/>}/>
-        <Route path = "/jamia-millia-islamia-law" element={<Jamia/>}/>
-        <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
-        <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
-        <Route path = "/symbiosis-college-pune" element= {<SYMBIOSISC/>}/>
-
-=======
->>>>>>> cde0c3d7bad7b084e421ff905867a646120158cc
+        <Route path="/jamia-millia-university" element={<JAMIA />} />
+        <Route path="/clat" element={<Clat />} />
+        <Route path="/national-law-university-delhi" element={<Nlud />} />
+        <Route path="/christ-university-law" element={<ChristLaw />} />
+        <Route path="/jamia-millia-islamia-law" element={<JamiaMillia />} />
+        <Route path="/nmims-school-of-law" element={<NMIMSLaw />} />
+        <Route path="/symbiosis-law-college" element={<SymbiosisLaw />} />
+        <Route path="/symbiosis-college-pune" element={<SymbiosisCommerce />} />
       </Routes>
     </Router>
   );
