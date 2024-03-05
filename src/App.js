@@ -35,26 +35,9 @@ import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
 
-import CHRIST from "./pages/Courses/christ/Christ";
-import JAMIA from "./pages/Courses/jamia/Jamia";
-import IPCW from "./pages/Courses/ipcw/Ipcw";
-import DELHI from "./pages/Courses/delhi university/Delhi";
-
-import Clat from "./pages/Courses/CLAT/Clat";
-import Nlud from "./pages/Courses/NLUD/Nlud";
-import Christ from "./pages/Courses/Christ-law/Christ-law";
-import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
-import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
-import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 import IPU from "./pages/Courses/IPU/IPU";
 import NMIMSB from "./pages/Courses/NMIMS-ASMSC/NMIMSB";
 
-import DU from "./pages/Courses/DU/Du";
-import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
-import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
-import IHM from "./pages/Courses/ihm/Ihm";
-import GSIU from "./pages/Courses/gsiu/Gsiu";
-import IPU from "./pages/Courses/IPU/IPU";
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
 import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
@@ -62,7 +45,6 @@ import DU from "./pages/Courses/DU/Du";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 import IHM from "./pages/Courses/ihm/Ihm";
 import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
-
 
 function App() {
   return (
@@ -92,9 +74,7 @@ function App() {
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
 
-
- 
-        <Route path = "nmims-asmc"element={<NMIMSB/>}/>
+        <Route path="nmims-asmc" element={<NMIMSB />} />
         <Route path="/clat" element={<Clat />} />
         <Route path="/national-law-university-delhi" element={<Nlud />} />
         <Route path="/christ-university-law" element={<Christ />} />
@@ -116,7 +96,6 @@ function App() {
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
-
       </Routes>
     </Router>
   );
