@@ -28,6 +28,7 @@ import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
 import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
 import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 import IPU from "./pages/Courses/IPU/IPU";
+import NMIMSB from "./pages/Courses/NMIMS-ASMSC/NMIMSB";
 
 
 
@@ -62,6 +63,7 @@ function App() {
         <Route path = "nmims-school-of-law" element={<NMIMSLaw/>}/>
         <Route path = "symbiosis-law-college" element= {<SymbiosisLaw/>}/>
         <Route path = "ip-university" element= {<IPU/>}/>
+        <Route path = "nmims-asmc"element={<NMIMSB/>}/>
       </Routes>
     </Router>
   );
