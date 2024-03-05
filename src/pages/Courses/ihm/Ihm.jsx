@@ -16,7 +16,7 @@ const IHM = () => {
             <div className="row">
               <div className="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                 <h2 className="heading-main-containers">
-                Gobind Singh Indraprastha University
+                Institute of Hotel Management, Aurangabad(Taj)
                 </h2>
               </div>
               <div className="col about-company-s2-slider-wrapper">
