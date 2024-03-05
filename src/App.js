@@ -34,19 +34,6 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
-import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
-import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
-import NMIMS from "./pages/Courses/nmims/Nmims";
-import CHRIST from "./pages/Courses/christ/Christ";
-import XAVIER from "./pages/Courses/xavier/Xavier";
-import JAMIA from "./pages/Courses/jamia/Jamia";
-import IPCW from "./pages/Courses/ipcw/Ipcw";
-import DELHI from "./pages/Courses/delhi university/Delhi";
-import Clat from "./pages/Courses/CLAT/Clat";
-import Nlud from "./pages/Courses/NLUD/Nlud";
-import Christ from "./pages/Courses/Christ-law/Christ-law";
-import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
-import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 
 function App() {
