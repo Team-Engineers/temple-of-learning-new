@@ -2,33 +2,38 @@ import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./pages/About";
+import Clat from "./pages/Courses/CLAT/Clat";
+import {
+  default as Christ,
+  default as ChristLaw,
+} from "./pages/Courses/Christ-law/Christ-law";
 import Cucet from "./pages/Courses/Cucet/Cucet";
 import DuJat from "./pages/Courses/DuJat/DuJat";
 import IIMBodhgaya from "./pages/Courses/IIM-Bodhgaya/IIMBodhgaya";
 import IIMRanchi from "./pages/Courses/IIM-Ranchi/IIMRanchi";
+import {
+  default as Jamia,
+  default as JamiaMillia,
+} from "./pages/Courses/Jamia-millia/Jamia-millia";
+import Nlud from "./pages/Courses/NLUD/Nlud";
 import Symbiosis from "./pages/Courses/Symbiosis/Symbiosis";
+import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
 import CHRIST from "./pages/Courses/christ/Christ";
 import DELHI from "./pages/Courses/delhi university/Delhi";
 import Indore from "./pages/Courses/indore/Indore";
 import IPCW from "./pages/Courses/ipcw/Ipcw";
 import JAMIA from "./pages/Courses/jamia/Jamia";
 import Jammu from "./pages/Courses/jammu/Jammu";
+import NCHMCT from "./pages/Courses/nchmct/Nchmct";
+import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
 import NMIMS from "./pages/Courses/nmims/Nmims";
 import Rohtak from "./pages/Courses/rohtak/Rohtak";
+import WGSHA from "./pages/Courses/wgsha/Wgsha";
 import XAVIER from "./pages/Courses/xavier/Xavier";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
-
-import Clat from "./pages/Courses/CLAT/Clat";
-import Christ from "./pages/Courses/Christ-law/Christ-law";
-import Jamia from "./pages/Courses/Jamia-millia/Jamia-millia";
-import Nlud from "./pages/Courses/NLUD/Nlud";
-import SymbiosisLaw from "./pages/Courses/SymbiosisLaw/SymbiosisLaw";
-import NMIMSLaw from "./pages/Courses/nmims-law/nmimsLaw";
-import NCHMCT from "./pages/Courses/nchmct/Nchmct";
-import WGSHA from "./pages/Courses/wgsha/Wgsha";
 
 function App() {
   return (
@@ -51,6 +56,8 @@ function App() {
         <Route path="/christ-university" element={<CHRIST />} />
         <Route path="/du-ba-hons" element={<DELHI />} />
         <Route path="/st-xaviers-mumbai" element={<XAVIER />} />
+        <Route path="/christ-university-law" element={<ChristLaw />} />
+        <Route path="/jamia-millia-islamia-law" element={<JamiaMillia />} />
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
         <Route path="/nchmct" element={<NCHMCT />} />
