@@ -36,6 +36,7 @@ import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
 
 import IPU from "./pages/Courses/IPU/IPU";
+import NMIMSB from "./pages/Courses/NMIMS-ASMSC/NMIMSB";
 
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
@@ -73,6 +74,7 @@ function App() {
         <Route path="jamia-millia-university" element={<JAMIA />} />
         <Route path="ipcw" element={<IPCW />} />
 
+        <Route path="nmims-asmc" element={<NMIMSB />} />
         <Route path="/clat" element={<Clat />} />
         <Route path="/national-law-university-delhi" element={<Nlud />} />
         <Route path="/christ-university-law" element={<Christ />} />
