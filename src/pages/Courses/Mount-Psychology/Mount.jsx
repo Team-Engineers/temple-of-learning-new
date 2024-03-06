@@ -3,7 +3,7 @@ import Navbar from '../../../components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import Footer from '../../../components/footer/Footer';
 
-function Aligarh() {
+function Mount() {
     const [courses] = useState([
         {
             title: "PSYCHOLOGY",
@@ -14,7 +14,6 @@ function Aligarh() {
             description: "It helps broaden the realm of human behaviors and magnify the understanding of how a mind works. A major in Psychology opens up several interesting opportunities for a candidate. Having a good understanding of the human mind and behaviors can help you excel in a wide variety of career paths.",
         },
     ]);
-
   return (
     <div className=''>
     <div>
@@ -23,7 +22,7 @@ function Aligarh() {
     <div className="main max-w-[1280px] mx-auto relative overflow-hidden text-left text-base text-steelblue-200 font-inter mt-8 ml-8 mr-8 justify-center">
         <div className="bg-[#C4F7D1] absolute inset-0 z-[-1] filter blur-[75px] w-56 h-48 border-black top-32 "></div>
         <div className="relative ">
-            <p className="text-4xl font-semibold underline-offset-2 ml-8">Aligarh Muslim University (Psychology)</p>
+            <p className="text-4xl font-semibold underline-offset-2 ml-8">Mount Carmel College (Psychology)</p>
         </div>
         {courses.map((course, index) => (
             <div key={index} className="mt-6 ml-8 mr-8 justify-center">
@@ -115,27 +114,22 @@ function Aligarh() {
                     <tbody>
                         <tr>
                             <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">NO. OF SEATS</td>
-                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">85</td>
+                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">40 Seats</td>
                         </tr>
                         <tr>
                             <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">ELIGIBILITY</td>
-                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Senior Secondary School Certificate or an equivalent examination with at least 50% marks in aggregate of English and three other Subjects. Age Limit: Not more than 24 years as on 01st July in the year of admission.
+                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Passed Std. XII/ PUC or equivalent school leaving examinations with Minimum 60%.
                                
                             </td>
                         </tr>
                         <tr>
-                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">STAGES - 1</td>
-                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Entrance Test - Combined Admission Test</td>
+                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">STAGES - 2</td>
+                            <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">Entrance Test: Candidates are selected based on marks obtained in 10+2 and entrance test and performance in personal interview.</td>
                         </tr>
                         <tr>
                             <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">PATTERN</td>
                             <td className="border-t border-solid border-steelblue-100 border-l py-3 px-4">
-                            There shall be one objective type paper of 100 marks with the following components: <br />
-                            a) English : 25 Marks<br />
-                            b) Indo-Islamic Culture and Aligarh Movement : 25 Marks <br />
-                            c) General Awareness and Current Affairs : 40 Marks <br />
-                            d) Reasoning and Intelligence : 10 Marks <br />
-                            Duration: 2 Hours <br />
+                            The entrance test is designed to check the aptitude of a student. The test checks one’s knowledge of current affairs, basic grammar, and general knowledge and Media interest.
                                
                             </td>
                         </tr>
@@ -153,4 +147,4 @@ function Aligarh() {
   )
 }
 
-export default Aligarh
+export default Mount
