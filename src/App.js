@@ -34,21 +34,18 @@ import HomePage from "./pages/HomePage";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 import Contact from "./pages/contacts/Contact";
-
 import IPU from "./pages/Courses/IPU/IPU";
 import NMIMSB from "./pages/Courses/NMIMS-ASMSC/NMIMSB";
-
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
+import MILIA from "./pages/Courses/jamia-physcology/Milia";
 import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
 import DU from "./pages/Courses/DU/Du";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 import IHM from "./pages/Courses/ihm/Ihm";
 import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
 import Aligarh from "./pages/Courses/Aligarh-Psychology/Aligarh";
-
 import Mount from "./pages/Courses/Mount-Psychology/Mount";
-
 
 function App() {
   return (
@@ -86,7 +83,6 @@ function App() {
         <Route path="nmims-school-of-law" element={<NMIMSLaw />} />
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="ip-university" element={<IPU />} />
-
         <Route path="/christ-university-bcom" element={<CHRIST_COMMERCE />} />
         <Route path="/ihm-aurangabad" element={<IHM />} />
         <Route path="/ip-university-hotel-management" element={<GSIU />} />
@@ -100,10 +96,9 @@ function App() {
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
+        <Route path="/jamia-millia-psychology" element={<MILIA />} />
         <Route path="/amu-psychology" element={<Aligarh/>}/>
-
         <Route path="mount-carmel-psychology" element={<Mount/>}/>
-
       </Routes>
     </Router>
   );
