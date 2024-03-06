@@ -47,6 +47,9 @@ import IHM from "./pages/Courses/ihm/Ihm";
 import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
 import Aligarh from "./pages/Courses/Aligarh-Psychology/Aligarh";
 
+import Mount from "./pages/Courses/Mount-Psychology/Mount";
+
+
 function App() {
   return (
     <Router>
@@ -98,6 +101,9 @@ function App() {
         <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
         <Route path="/amu-psychology" element={<Aligarh/>}/>
+
+        <Route path="mount-carmel-psychology" element={<Mount/>}/>
+
       </Routes>
     </Router>
   );
