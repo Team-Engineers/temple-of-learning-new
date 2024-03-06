@@ -38,6 +38,7 @@ import IPU from "./pages/Courses/IPU/IPU";
 import NMIMSB from "./pages/Courses/NMIMS-ASMSC/NMIMSB";
 import BhuUet from "./pages/Courses/BHU-UET/BhuUet";
 import CUNIVERSITY from "./pages/Courses/CHRIST-physcology/Christ";
+import SYMB from "./pages/Courses/Symbiosis-communication/Symbiosis";
 import MILIA from "./pages/Courses/jamia-physcology/Milia";
 import CHRIST_COMMERCE from "./pages/Courses/Christ-commerce/Christ";
 import DU from "./pages/Courses/DU/Du";
@@ -96,6 +97,7 @@ function App() {
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
+        <Route path="/symbiosis-masscomm" element={<SYMB />} />
         <Route path="/jamia-millia-psychology" element={<MILIA />} />
         <Route path="/amu-psychology" element={<Aligarh/>}/>
         <Route path="mount-carmel-psychology" element={<Mount/>}/>
