@@ -23,7 +23,11 @@ function Aligarh() {
     <div className="main max-w-[1280px] mx-auto relative overflow-hidden text-left text-base text-steelblue-200 font-inter mt-8 ml-8 mr-8 justify-center">
         <div className="bg-[#C4F7D1] absolute inset-0 z-[-1] filter blur-[75px] w-56 h-48 border-black top-32 "></div>
         <div className="relative ">
+
             <p className="text-4xl font-semibold underline-offset-2 ml-8">Aligarh Muslim University (Psychology)</p>
+
+            <p className="text-4xl font-semibold underline-offset-2 ml-8">Banaras Hindu University (BHU-UET)</p>
+
         </div>
         {courses.map((course, index) => (
             <div key={index} className="mt-6 ml-8 mr-8 justify-center">
