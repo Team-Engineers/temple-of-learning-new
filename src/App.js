@@ -45,6 +45,7 @@ import DU from "./pages/Courses/DU/Du";
 import GSIU from "./pages/Courses/gsiu/Gsiu";
 import IHM from "./pages/Courses/ihm/Ihm";
 import SymbiosisCommerce from "./pages/Courses/symbiosis-commerce/Symbiosis";
+import Aligarh from "./pages/Courses/Aligarh-Psychology/Aligarh";
 
 function App() {
   return (
@@ -96,6 +97,7 @@ function App() {
         <Route path="symbiosis-law-college" element={<SymbiosisLaw />} />
         <Route path="bhu-uet-psychology" element={<BhuUet />} />
         <Route path="/christ-university-psychology" element={<CUNIVERSITY />} />
+        <Route path="/amu-psychology" element={<Aligarh/>}/>
       </Routes>
     </Router>
   );

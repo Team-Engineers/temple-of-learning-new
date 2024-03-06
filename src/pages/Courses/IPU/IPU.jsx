@@ -31,11 +31,7 @@ export default function IPU() {
                 <div className="bg-[#C4F7D1] absolute inset-0 z-[-1] filter blur-[75px] w-56 h-48 border-black top-32 ">
                 </div>
                 <div className="relative ">
-
-                    <p className=" mt-8 ml-8 text-4xl font-semibold underline-offset-2">IIM Ranchi, IPM</p>
-
                     <p className=" mt-8 ml-8 text-4xl font-semibold underline-offset-2">IP University B.COM</p>
-
                 </div>
                 {courses.map((course, index) => (
                     <div key={index} className="mt-6 ml-8 mr-8 justify-center">
